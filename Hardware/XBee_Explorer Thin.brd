@@ -2865,8 +2865,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R1" pad="1"/>
 <polygon width="0.127" layer="1" isolate="0.3048" thermals="no">
 <vertex x="27.178" y="24.003"/>
-<vertex x="27.178" y="31.496"/>
-<vertex x="29.337" y="31.496"/>
+<vertex x="27.178" y="33.401"/>
+<vertex x="29.337" y="33.401"/>
 <vertex x="29.337" y="24.511"/>
 <vertex x="28.829" y="24.003"/>
 </polygon>
@@ -2927,6 +2927,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J6" pad="8"/>
 <via x="30.099" y="23.495" extent="1-16" drill="0.3048"/>
 <wire x1="30.099" y1="22.44" x2="30.099" y2="23.495" width="0.254" layer="1"/>
+<via x="27.813" y="32.131" extent="1-16" drill="0.3048"/>
+<via x="28.575" y="32.131" extent="1-16" drill="0.3048"/>
+<via x="27.813" y="32.893" extent="1-16" drill="0.3048"/>
+<via x="28.575" y="32.893" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="V_USB">
 <contactref element="D5" pad="A"/>
