@@ -607,7 +607,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="XBEE_UPDATE" prefix="JP" uservalue="yes">
+<deviceset name="XBEE_UPDATE" prefix="J" uservalue="yes">
 <description>&lt;h3&gt;Digi XBee and XBee Pro&lt;/h3&gt;
 &lt;p&gt;XBees are tiny blue chips that can communicate wirelessly with each other. They can do simple things, like replacing a couple of wires in serial communication, which is nice when you want to make a remote for your paintball vehicle.&lt;/p&gt;
 &lt;h4&gt;SparkFun Products&lt;/h4&gt;
