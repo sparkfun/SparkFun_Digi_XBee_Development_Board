@@ -15105,12 +15105,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="26.67" y="42.672" extent="1-16" drill="0.3048"/>
 <wire x1="6.5913" y1="3.302" x2="5.842" y2="3.302" width="0.5588" layer="16"/>
 <wire x1="13.97" y1="42.33" x2="13.374" y2="42.926" width="0.762" layer="1"/>
-<via x="9.017" y="13.97" extent="1-16" drill="0.3048"/>
+<via x="8.001" y="12.954" extent="1-16" drill="0.3048"/>
 <wire x1="2.6797" y1="8.128" x2="2.6797" y2="8.6233" width="0.2032" layer="16"/>
 <wire x1="2.6797" y1="8.6233" x2="2.159" y2="9.144" width="0.2032" layer="16"/>
 <via x="2.159" y="9.144" extent="1-16" drill="0.3048"/>
 <via x="40.64" y="16.51" extent="1-16" drill="0.3048"/>
-<wire x1="9.017" y1="13.97" x2="11.938" y2="13.97" width="0.762" layer="16"/>
+<wire x1="11.557" y1="13.589" x2="11.938" y2="13.97" width="0.762" layer="16"/>
+<wire x1="11.557" y1="13.589" x2="8.636" y2="13.589" width="0.762" layer="16"/>
+<wire x1="8.001" y1="12.954" x2="8.636" y2="13.589" width="0.762" layer="16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="I2C_PU" pad="2"/>
@@ -15143,8 +15145,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="32.385" y="13.589"/>
 <vertex x="32.385" y="14.859"/>
 <vertex x="32.639" y="14.859"/>
-<vertex x="32.639" y="14.097"/>
-<vertex x="32.893" y="14.097"/>
+<vertex x="32.639" y="13.843"/>
+<vertex x="32.893" y="13.843"/>
 <vertex x="32.893" y="14.859"/>
 <vertex x="33.147" y="14.859"/>
 <vertex x="33.147" y="13.97"/>
