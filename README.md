@@ -1,4 +1,4 @@
-#SparkFun XBee Smart Modem
+SparkFun XBee Smart Modem
 ========================================
 
 [![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
