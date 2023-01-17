@@ -15543,7 +15543,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$29" library="top" package="#POCI#20" value="" x="39.751" y="34.29" smashed="yes"/>
 <element name="U$31" library="top" package="#RSSI#16" value="" x="3.556" y="36.83" smashed="yes"/>
 <element name="U$32" library="top" package="#SCL#6" value="" x="3.937" y="31.75" smashed="yes"/>
-<element name="U$33" library="top" package="#SCLK#18" value="" x="39.878" y="41.91" smashed="yes"/>
+<element name="U$33" library="top" package="#SCLK#18" value="" x="39.878" y="41.402" smashed="yes"/>
 <element name="U$34" library="top" package="#SDA#7" value="" x="3.683" y="29.21" smashed="yes"/>
 <element name="U$35" library="top" package="#SHLD#30" value="" x="32.512" y="3.429" smashed="yes" rot="MR0"/>
 <element name="U$36" library="top" package="#SHLD1#31" value="" x="10.922" y="3.302" smashed="yes" rot="MR0"/>
@@ -15835,7 +15835,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="35.179" y="13.589"/>
 </polygon>
 <wire x1="39.37" y1="9.66" x2="40.521" y2="9.66" width="0.508" layer="1"/>
-<wire x1="37.68" y1="15.494" x2="37.719" y2="15.533" width="0.508" layer="1"/>
 <wire x1="13.68" y1="17.383" x2="12.716" y2="17.383" width="0.254" layer="1"/>
 <wire x1="12.716" y1="17.383" x2="12.573" y2="17.526" width="0.254" layer="1"/>
 <via x="12.573" y="17.526" extent="1-16" drill="0.3048"/>
@@ -16552,9 +16551,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,16,24952e5538d13495"/>
 <approved hash="19,16,a671a99a4be979a2"/>
 <approved hash="19,16,5ac352c382c18ac3"/>
-<approved hash="19,16,ad21a1a01fa01a61"/>
-<approved hash="19,16,a045ad2c132c1745"/>
 <approved hash="19,16,73bc4f9b3c9a27bc"/>
+<approved hash="19,16,1d2019a0d3a0de60"/>
+<approved hash="19,16,1044152cdf2cd344"/>
 </errors>
 </board>
 </drawing>
