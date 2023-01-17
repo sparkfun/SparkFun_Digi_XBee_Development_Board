@@ -15750,7 +15750,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="15.24" y="12.192" extent="1-16" drill="0.35"/>
 <via x="5.334" y="13.97" extent="1-16" drill="0.35"/>
 <via x="5.461" y="17.399" extent="1-16" drill="0.35"/>
-<via x="1.778" y="15.113" extent="1-16" drill="0.35"/>
 <via x="1.778" y="17.653" extent="1-16" drill="0.35"/>
 <via x="18.161" y="19.939" extent="1-16" drill="0.35"/>
 <via x="16.383" y="27.178" extent="1-16" drill="0.35"/>
@@ -15776,13 +15775,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="43.18" y="20.32" extent="1-16" drill="0.35"/>
 <via x="43.18" y="14.097" extent="1-16" drill="0.35"/>
 <via x="1.27" y="45.72" extent="1-16" drill="0.35"/>
-<via x="1.27" y="39.37" extent="1-16" drill="0.35"/>
-<via x="1.27" y="26.67" extent="1-16" drill="0.35"/>
 <via x="13.97" y="53.34" extent="1-16" drill="0.3048"/>
 <via x="21.59" y="53.34" extent="1-16" drill="0.3048"/>
 <via x="21.59" y="3.81" extent="1-16" drill="0.3048"/>
 <via x="26.67" y="3.81" extent="1-16" drill="0.3048"/>
 <via x="16.51" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="0" y="39.37" extent="1-16" drill="0.35"/>
+<via x="0" y="33.02" extent="1-16" drill="0.35"/>
+<via x="0" y="26.67" extent="1-16" drill="0.35"/>
+<via x="0" y="20.32" extent="1-16" drill="0.35"/>
+<via x="0" y="15.367" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="I2C_PU" pad="2"/>
