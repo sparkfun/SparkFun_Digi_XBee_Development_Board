@@ -27187,7 +27187,6 @@ USB Shields from Ground. </text>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v01</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
-<text x="76.2" y="73.66" size="1.27" layer="97" font="vector">Default (Low) = SDA (I2C)</text>
 <wire x1="236.22" y1="111.76" x2="236.22" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="99.06" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
 <text x="58.42" y="91.44" size="1.778" layer="97" font="vector" align="center">Default (Low) = I2C (SDA)</text>
@@ -27197,6 +27196,7 @@ USB Shields from Ground. </text>
 Iout: 2A Max</text>
 <text x="200.66" y="269.24" size="2.54" layer="94" font="vector" align="center">USB-C Connectors</text>
 <wire x1="121.92" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="97" style="longdash"/>
+<text x="132.08" y="40.64" size="1.778" layer="97" font="vector">Cut I2C jumper to remove pullups.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
