@@ -27172,7 +27172,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="190.246" y="213.868" size="1.778" layer="97" font="vector">Cut SHLD/SHLD1 jumper to disconnect
 USB Shields from Ground. </text>
 <text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">XBee Headers</text>
-<text x="175.26" y="99.06" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
+<text x="177.8" y="99.06" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
 <wire x1="0" y1="111.76" x2="121.92" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="208.28" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="208.28" x2="121.92" y2="279.4" width="0.2032" layer="97" style="longdash"/>
@@ -27191,12 +27191,13 @@ USB Shields from Ground. </text>
 <text x="58.42" y="99.06" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
 <text x="58.42" y="91.44" size="1.778" layer="97" font="vector" align="center">Default (Low) = I2C (SDA)</text>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="281.94" y="101.6" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
+<text x="281.94" y="99.06" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
 <text x="195.58" y="187.96" size="1.778" layer="97" font="vector">VIN: 3.8 - 5.5V
 Iout: 2A Max</text>
 <text x="200.66" y="269.24" size="2.54" layer="94" font="vector" align="center">USB-C Connectors</text>
 <wire x1="121.92" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="97" style="longdash"/>
-<text x="132.08" y="40.64" size="1.778" layer="97" font="vector">Cut I2C jumper to remove pullups.</text>
+<text x="177.8" y="93.98" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
+<text x="281.94" y="93.98" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
