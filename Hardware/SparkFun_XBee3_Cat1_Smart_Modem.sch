@@ -26740,207 +26740,6 @@ Physical Characteristics:
 </deviceset>
 </devicesets>
 </library>
-<library name="xbee_improved">
-<packages>
-<package name="XBEE">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm PTH headers.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<pad name="1" x="-11" y="20" drill="0.8" diameter="1.524"/>
-<pad name="2" x="-11" y="18" drill="0.8" diameter="1.524" rot="R180"/>
-<pad name="3" x="-11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="4" x="-11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="5" x="-11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="6" x="-11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="7" x="-11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="8" x="-11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="9" x="-11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="10" x="-11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="11" x="11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="12" x="11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="13" x="11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="14" x="11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="15" x="11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="16" x="11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="17" x="11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="18" x="11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="19" x="11" y="18" drill="0.8" diameter="1.524"/>
-<pad name="20" x="11" y="20" drill="0.8" diameter="1.524"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-<package name="XBEE-SMD_SILK">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (SMD pads)&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm SMD headers.&lt;/p&gt;</description>
-<wire x1="-12.25" y1="-7.59" x2="-12.25" y2="-8.14" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="-8.14" x2="-12.25" y2="12.36" width="0.127" layer="51"/>
-<wire x1="-9.75" y1="12.36" x2="-9.75" y2="-8.14" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-8.14" x2="-9.75" y2="-8.14" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="12.36" x2="-9.75" y2="12.36" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-8.14" x2="-9.75" y2="-8.14" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="-8.14" x2="-9.75" y2="-7.59" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="-8.14" x2="9.75" y2="12.36" width="0.127" layer="51"/>
-<wire x1="12.25" y1="12.36" x2="12.25" y2="-8.14" width="0.127" layer="51"/>
-<wire x1="9.75" y1="-8.14" x2="12.25" y2="-8.14" width="0.127" layer="51"/>
-<wire x1="9.75" y1="12.36" x2="12.25" y2="12.36" width="0.127" layer="51"/>
-<wire x1="9.75" y1="-8.14" x2="9.75" y2="-7.59" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="-8.14" x2="12.25" y2="-8.14" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="-8.14" x2="12.25" y2="-7.59" width="0.2032" layer="21"/>
-<smd name="1" x="-12.5" y="11.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="2" x="-9.5" y="9.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="3" x="-12.5" y="7.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="4" x="-9.5" y="5.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="5" x="-12.5" y="3.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="6" x="-9.5" y="1.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="7" x="-12.5" y="-0.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="8" x="-9.5" y="-2.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="9" x="-12.5" y="-4.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="10" x="-9.5" y="-6.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="11" x="12.5" y="-6.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="12" x="9.5" y="-4.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="13" x="12.5" y="-2.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="14" x="9.5" y="-0.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="15" x="12.5" y="1.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="16" x="9.5" y="3.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="17" x="12.5" y="5.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="18" x="9.5" y="7.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="19" x="12.5" y="9.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="20" x="9.5" y="11.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<text x="0" y="0.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-13.081" y="12.319" radius="0.359209375" width="0" layer="21"/>
-<wire x1="-8.636" y1="29.1084" x2="8.7376" y2="29.1084" width="0.1524" layer="51"/>
-<wire x1="-15.1638" y1="22.5806" x2="15.2908" y2="22.5806" width="0.1524" layer="51"/>
-<wire x1="-15.1638" y1="22.5806" x2="-15.1638" y2="-14.0716" width="0.1524" layer="51"/>
-<wire x1="15.2908" y1="22.5806" x2="15.2908" y2="-14.0716" width="0.1524" layer="51"/>
-<wire x1="15.2788375" y1="22.5925625" x2="8.73698125" y2="29.10901875" width="0.1524" layer="51"/>
-<wire x1="-15.1518375" y1="22.5925625" x2="-8.63538125" y2="29.10901875" width="0.1524" layer="51"/>
-<wire x1="-15.1638" y1="-14.0716" x2="15.2908" y2="-14.0716" width="0.1524" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="XBEE_CELLULAR">
-<description>&lt;h3&gt;XBee Celluar&lt;/h3&gt;</description>
-<wire x1="-20.32" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-17.78" x2="-20.32" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-17.78" x2="-20.32" y2="17.78" width="0.254" layer="94"/>
-<pin name="!CTS!/DIO7" x="25.4" y="-7.62" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="DIN/!CONFIG!" x="-22.86" y="-7.62" visible="pin" length="short" direction="in"/>
-<pin name="DIO0/AD0" x="25.4" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="SCL/DIO1/AD1" x="25.4" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="ATTN/CLK/!RTS2!/DIO2/AD2" x="25.4" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="!CS!/!CTS2!/DIO3/AD3" x="25.4" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PICO/TX2/DIO4" x="25.4" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="ASSOCIATE/DIO5" x="25.4" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="!SLEEP!/DIO9" x="25.4" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="D+/SDA/DIO11" x="-22.86" y="7.62" visible="pin" length="short"/>
-<pin name="POCI/DIO12" x="25.4" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="DOUT" x="-22.86" y="-5.08" visible="pin" length="short" direction="out"/>
-<pin name="DTR/DIO8" x="25.4" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-22.86" y="-15.24" visible="pin" length="short" direction="pwr"/>
-<pin name="D-" x="-22.86" y="5.08" visible="pin" length="short"/>
-<pin name="!RESET!" x="25.4" y="12.7" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="VUSB/RSSI/DIO10" x="-22.86" y="10.16" visible="pin" length="short"/>
-<pin name="!RTS!/DIO6" x="25.4" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="VCC" x="-22.86" y="15.24" visible="pin" length="short" direction="pwr"/>
-<text x="-20.32" y="18.034" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-20.32" y="-18.034" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="XBEE_UPDATE" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Digi XBee and XBee Pro&lt;/h3&gt;
-&lt;p&gt;XBees are tiny blue chips that can communicate wirelessly with each other. They can do simple things, like replacing a couple of wires in serial communication, which is nice when you want to make a remote for your paintball vehicle.&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/pages/xbee_guide"&gt;SparkFun XBee Buying Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11812"&gt;SparkFun XBee Explorer USB&lt;/a&gt; (WRL-11812)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8276"&gt;Breakout Board for XBee Module&lt;/a&gt; (WRL-8276)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11373"&gt;SparkFun XBee Explorer Regulated&lt;/a&gt; (WRL-11373)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11697"&gt;SparkFun XBee Explorer Dongle&lt;/a&gt; (WRL-11697)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12847"&gt;SparkFun XBee Shield&lt;/a&gt; (WRL-12847)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13225"&gt;SparkFun XBee Explorer Serial&lt;/a&gt; (WRL-13225)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="XBEE_CELLULAR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XBEE">
-<connects>
-<connect gate="G$1" pin="!CS!/!CTS2!/DIO3/AD3" pad="17"/>
-<connect gate="G$1" pin="!CTS!/DIO7" pad="12"/>
-<connect gate="G$1" pin="!RESET!" pad="5"/>
-<connect gate="G$1" pin="!RTS!/DIO6" pad="16"/>
-<connect gate="G$1" pin="!SLEEP!/DIO9" pad="13"/>
-<connect gate="G$1" pin="ASSOCIATE/DIO5" pad="15"/>
-<connect gate="G$1" pin="ATTN/CLK/!RTS2!/DIO2/AD2" pad="18"/>
-<connect gate="G$1" pin="D+/SDA/DIO11" pad="7"/>
-<connect gate="G$1" pin="D-" pad="8"/>
-<connect gate="G$1" pin="DIN/!CONFIG!" pad="3"/>
-<connect gate="G$1" pin="DIO0/AD0" pad="20"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR/DIO8" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="PICO/TX2/DIO4" pad="11"/>
-<connect gate="G$1" pin="POCI/DIO12" pad="4"/>
-<connect gate="G$1" pin="SCL/DIO1/AD1" pad="19"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VUSB/RSSI/DIO10" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="XBEE_SMD" package="XBEE-SMD_SILK">
-<connects>
-<connect gate="G$1" pin="!CS!/!CTS2!/DIO3/AD3" pad="17"/>
-<connect gate="G$1" pin="!CTS!/DIO7" pad="12"/>
-<connect gate="G$1" pin="!RESET!" pad="5"/>
-<connect gate="G$1" pin="!RTS!/DIO6" pad="16"/>
-<connect gate="G$1" pin="!SLEEP!/DIO9" pad="13"/>
-<connect gate="G$1" pin="ASSOCIATE/DIO5" pad="15"/>
-<connect gate="G$1" pin="ATTN/CLK/!RTS2!/DIO2/AD2" pad="18"/>
-<connect gate="G$1" pin="D+/SDA/DIO11" pad="7"/>
-<connect gate="G$1" pin="D-" pad="8"/>
-<connect gate="G$1" pin="DIN/!CONFIG!" pad="3"/>
-<connect gate="G$1" pin="DIO0/AD0" pad="20"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR/DIO8" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="PICO/TX2/DIO4" pad="11"/>
-<connect gate="G$1" pin="POCI/DIO12" pad="4"/>
-<connect gate="G$1" pin="SCL/DIO1/AD1" pad="19"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VUSB/RSSI/DIO10" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Hardware">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
@@ -27019,6 +26818,209 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <device name="TIGHT" package="STAND-OFF-TIGHT">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="xbee_smart_modem">
+<packages>
+<package name="XBEE-SMD_SILK">
+<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (SMD pads)&lt;/h3&gt;
+&lt;p&gt;20-pin 2mm SMD headers.&lt;/p&gt;</description>
+<wire x1="-12.25" y1="-7.59" x2="-12.25" y2="-8.14" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="-8.14" x2="-12.25" y2="12.36" width="0.127" layer="51"/>
+<wire x1="-9.75" y1="12.36" x2="-9.75" y2="-8.14" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="-8.14" x2="-9.75" y2="-8.14" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="12.36" x2="-9.75" y2="12.36" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="-8.14" x2="-9.75" y2="-8.14" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="-8.14" x2="-9.75" y2="-7.59" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="-8.14" x2="9.75" y2="12.36" width="0.127" layer="51"/>
+<wire x1="12.25" y1="12.36" x2="12.25" y2="-8.14" width="0.127" layer="51"/>
+<wire x1="9.75" y1="-8.14" x2="12.25" y2="-8.14" width="0.127" layer="51"/>
+<wire x1="9.75" y1="12.36" x2="12.25" y2="12.36" width="0.127" layer="51"/>
+<wire x1="9.75" y1="-8.14" x2="9.75" y2="-7.59" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="-8.14" x2="12.25" y2="-8.14" width="0.2032" layer="21"/>
+<wire x1="12.25" y1="-8.14" x2="12.25" y2="-7.59" width="0.2032" layer="21"/>
+<smd name="1" x="-12.5" y="11.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="2" x="-9.5" y="9.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="3" x="-12.5" y="7.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="4" x="-9.5" y="5.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="5" x="-12.5" y="3.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="6" x="-9.5" y="1.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="7" x="-12.5" y="-0.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="8" x="-9.5" y="-2.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="9" x="-12.5" y="-4.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="10" x="-9.5" y="-6.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="11" x="12.5" y="-6.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="12" x="9.5" y="-4.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="13" x="12.5" y="-2.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="14" x="9.5" y="-0.89" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="15" x="12.5" y="1.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="16" x="9.5" y="3.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="17" x="12.5" y="5.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="18" x="9.5" y="7.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="19" x="12.5" y="9.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<smd name="20" x="9.5" y="11.11" dx="0.85" dy="1.7" layer="1" rot="R90"/>
+<text x="0" y="0.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<circle x="-13.081" y="12.319" radius="0.359209375" width="0" layer="21"/>
+<wire x1="-8.636" y1="29.1084" x2="8.7376" y2="29.1084" width="0.1524" layer="51"/>
+<wire x1="-15.1638" y1="22.5806" x2="15.2908" y2="22.5806" width="0.1524" layer="51"/>
+<wire x1="-15.1638" y1="22.5806" x2="-15.1638" y2="-14.0716" width="0.1524" layer="51"/>
+<wire x1="15.2908" y1="22.5806" x2="15.2908" y2="-14.0716" width="0.1524" layer="51"/>
+<wire x1="15.2788375" y1="22.5925625" x2="8.73698125" y2="29.10901875" width="0.1524" layer="51"/>
+<wire x1="-15.1518375" y1="22.5925625" x2="-8.63538125" y2="29.10901875" width="0.1524" layer="51"/>
+<wire x1="-15.1638" y1="-14.0716" x2="15.2908" y2="-14.0716" width="0.1524" layer="51"/>
+</package>
+<package name="XBEE">
+<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules&lt;/h3&gt;
+&lt;p&gt;20-pin 2mm PTH headers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
+<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
+<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
+<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.127" layer="51"/>
+<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
+<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
+<pad name="1" x="-11" y="20" drill="0.8" diameter="1.524"/>
+<pad name="2" x="-11" y="18" drill="0.8" diameter="1.524" rot="R180"/>
+<pad name="3" x="-11" y="16" drill="0.8" diameter="1.524"/>
+<pad name="4" x="-11" y="14" drill="0.8" diameter="1.524"/>
+<pad name="5" x="-11" y="12" drill="0.8" diameter="1.524"/>
+<pad name="6" x="-11" y="10" drill="0.8" diameter="1.524"/>
+<pad name="7" x="-11" y="8" drill="0.8" diameter="1.524"/>
+<pad name="8" x="-11" y="6" drill="0.8" diameter="1.524"/>
+<pad name="9" x="-11" y="4" drill="0.8" diameter="1.524"/>
+<pad name="10" x="-11" y="2" drill="0.8" diameter="1.524"/>
+<pad name="11" x="11" y="2" drill="0.8" diameter="1.524"/>
+<pad name="12" x="11" y="4" drill="0.8" diameter="1.524"/>
+<pad name="13" x="11" y="6" drill="0.8" diameter="1.524"/>
+<pad name="14" x="11" y="8" drill="0.8" diameter="1.524"/>
+<pad name="15" x="11" y="10" drill="0.8" diameter="1.524"/>
+<pad name="16" x="11" y="12" drill="0.8" diameter="1.524"/>
+<pad name="17" x="11" y="14" drill="0.8" diameter="1.524"/>
+<pad name="18" x="11" y="16" drill="0.8" diameter="1.524"/>
+<pad name="19" x="11" y="18" drill="0.8" diameter="1.524"/>
+<pad name="20" x="11" y="20" drill="0.8" diameter="1.524"/>
+<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XBEE_CELLULAR">
+<description>&lt;h3&gt;XBee Celluar&lt;/h3&gt;</description>
+<wire x1="-20.32" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-17.78" x2="-20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-17.78" x2="-20.32" y2="17.78" width="0.254" layer="94"/>
+<pin name="!CTS!/DIO7" x="25.4" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="DIN/!CONFIG!" x="-22.86" y="-7.62" length="short" direction="in"/>
+<pin name="DIO0/AD0" x="25.4" y="10.16" length="short" rot="R180"/>
+<pin name="SCL/DIO1/AD1" x="25.4" y="7.62" length="short" rot="R180"/>
+<pin name="ATTN/CLK/!RTS2!/DIO2/AD2" x="25.4" y="5.08" length="short" rot="R180"/>
+<pin name="!CS!/!CTS2!/DIO3/AD3" x="25.4" y="2.54" length="short" rot="R180"/>
+<pin name="PICO/TX2/DIO4" x="25.4" y="0" length="short" rot="R180"/>
+<pin name="ASSOCIATE/DIO5" x="25.4" y="-2.54" length="short" rot="R180"/>
+<pin name="!SLEEP!/DIO9" x="25.4" y="-12.7" length="short" rot="R180"/>
+<pin name="D+/SDA/DIO11" x="-22.86" y="7.62" length="short"/>
+<pin name="POCI/DIO12" x="25.4" y="-15.24" length="short" rot="R180"/>
+<pin name="DOUT" x="-22.86" y="-5.08" length="short" direction="out"/>
+<pin name="DTR/DIO8" x="25.4" y="-10.16" length="short" rot="R180"/>
+<pin name="GND" x="-22.86" y="-15.24" length="short" direction="pwr"/>
+<pin name="D-" x="-22.86" y="5.08" length="short"/>
+<pin name="!RESET!" x="25.4" y="12.7" length="short" direction="in" rot="R180"/>
+<pin name="VUSB/RSSI/DIO10" x="-22.86" y="10.16" length="short"/>
+<pin name="!RTS!/DIO6" x="25.4" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="VCC" x="-22.86" y="15.24" length="short" direction="pwr"/>
+<text x="-20.32" y="18.034" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-20.32" y="-18.034" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XBEE_UPDATE" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;Digi XBee and XBee Pro&lt;/h3&gt;
+&lt;p&gt;XBees are tiny blue chips that can communicate wirelessly with each other. They can do simple things, like replacing a couple of wires in serial communication, which is nice when you want to make a remote for your paintball vehicle.&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/pages/xbee_guide"&gt;SparkFun XBee Buying Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11812"&gt;SparkFun XBee Explorer USB&lt;/a&gt; (WRL-11812)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8276"&gt;Breakout Board for XBee Module&lt;/a&gt; (WRL-8276)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11373"&gt;SparkFun XBee Explorer Regulated&lt;/a&gt; (WRL-11373)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11697"&gt;SparkFun XBee Explorer Dongle&lt;/a&gt; (WRL-11697)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12847"&gt;SparkFun XBee Shield&lt;/a&gt; (WRL-12847)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13225"&gt;SparkFun XBee Explorer Serial&lt;/a&gt; (WRL-13225)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="XBEE_CELLULAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XBEE">
+<connects>
+<connect gate="G$1" pin="!CS!/!CTS2!/DIO3/AD3" pad="17"/>
+<connect gate="G$1" pin="!CTS!/DIO7" pad="12"/>
+<connect gate="G$1" pin="!RESET!" pad="5"/>
+<connect gate="G$1" pin="!RTS!/DIO6" pad="16"/>
+<connect gate="G$1" pin="!SLEEP!/DIO9" pad="13"/>
+<connect gate="G$1" pin="ASSOCIATE/DIO5" pad="15"/>
+<connect gate="G$1" pin="ATTN/CLK/!RTS2!/DIO2/AD2" pad="18"/>
+<connect gate="G$1" pin="D+/SDA/DIO11" pad="7"/>
+<connect gate="G$1" pin="D-" pad="8"/>
+<connect gate="G$1" pin="DIN/!CONFIG!" pad="3"/>
+<connect gate="G$1" pin="DIO0/AD0" pad="20"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="DTR/DIO8" pad="9"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="PICO/TX2/DIO4" pad="11"/>
+<connect gate="G$1" pin="POCI/DIO12" pad="4"/>
+<connect gate="G$1" pin="SCL/DIO1/AD1" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VUSB/RSSI/DIO10" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="XBEE_SMD" package="XBEE-SMD_SILK">
+<connects>
+<connect gate="G$1" pin="!CS!/!CTS2!/DIO3/AD3" pad="17"/>
+<connect gate="G$1" pin="!CTS!/DIO7" pad="12"/>
+<connect gate="G$1" pin="!RESET!" pad="5"/>
+<connect gate="G$1" pin="!RTS!/DIO6" pad="16"/>
+<connect gate="G$1" pin="!SLEEP!/DIO9" pad="13"/>
+<connect gate="G$1" pin="ASSOCIATE/DIO5" pad="15"/>
+<connect gate="G$1" pin="ATTN/CLK/!RTS2!/DIO2/AD2" pad="18"/>
+<connect gate="G$1" pin="D+/SDA/DIO11" pad="7"/>
+<connect gate="G$1" pin="D-" pad="8"/>
+<connect gate="G$1" pin="DIN/!CONFIG!" pad="3"/>
+<connect gate="G$1" pin="DIO0/AD0" pad="20"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="DTR/DIO8" pad="9"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="PICO/TX2/DIO4" pad="11"/>
+<connect gate="G$1" pin="POCI/DIO12" pad="4"/>
+<connect gate="G$1" pin="SCL/DIO1/AD1" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VUSB/RSSI/DIO10" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="WRL-17581" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -27129,7 +27131,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="V_USB_2" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J2" library="xbee_improved" deviceset="XBEE_UPDATE" device="XBEE_SMD"/>
+<part name="J2" library="xbee_smart_modem" deviceset="XBEE_UPDATE" device="XBEE_SMD"/>
 <part name="U6" library="SparkFun-IC-Comms" deviceset="CP2102N" device="" value="CP210X"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -27165,16 +27167,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="48.26" y="248.92" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
+<text x="45.72" y="261.62" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
 <text x="368.3" y="266.7" size="2.54" layer="94" font="vector" align="center">USB-C and USB to UART Bridge  - (CP2104/2N)</text>
 <text x="203.454" y="197.866" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
 <text x="360.172" y="165.1" size="2.54" layer="94" font="vector" align="center">Lipo Battery Connector</text>
 <text x="190.246" y="213.868" size="1.778" layer="97" font="vector">Cut SHLD/SHLD1 jumper to disconnect
 USB Shields from Ground. </text>
-<text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">XBee Headers</text>
 <text x="177.8" y="99.06" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
 <wire x1="0" y1="111.76" x2="121.92" y2="111.76" width="0.2032" layer="97" style="longdash"/>
-<wire x1="121.92" y1="111.76" x2="121.92" y2="208.28" width="0.2032" layer="97" style="longdash"/>
+<wire x1="121.92" y1="111.76" x2="121.92" y2="187.96" width="0.2032" layer="97" style="longdash"/>
+<wire x1="121.92" y1="187.96" x2="121.92" y2="208.28" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="208.28" x2="121.92" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="111.76" x2="236.22" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="236.22" y1="111.76" x2="294.64" y2="111.76" width="0.2032" layer="97" style="longdash"/>
@@ -27198,6 +27200,9 @@ Iout: 2A Max</text>
 <wire x1="121.92" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="97" style="longdash"/>
 <text x="177.8" y="93.98" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
 <text x="281.94" y="93.98" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
+<text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">RF Module - XBee 3 Cat 1 Smart Modem</text>
+<wire x1="0" y1="187.96" x2="121.92" y2="187.96" width="0.2032" layer="97" style="longdash"/>
+<text x="60.96" y="180.34" size="2.54" layer="94" font="vector" align="center">0.1" Headers</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -27336,11 +27341,11 @@ Iout: 2A Max</text>
 <attribute name="NAME" x="76.2" y="69.215" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="76.2" y="45.72" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND22" gate="1" x="35.56" y="198.12" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="35.56" y="197.866" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND22" gate="1" x="35.56" y="210.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="35.56" y="210.566" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="35.56" y="236.22" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="35.56" y="239.014" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="35.56" y="248.92" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="35.56" y="251.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="J1" x="226.06" y="243.84" smashed="yes">
 <attribute name="VALUE" x="223.52" y="231.394" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -27491,9 +27496,9 @@ Iout: 2A Max</text>
 <instance part="GND31" gate="1" x="271.78" y="218.44" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="271.78" y="218.186" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="60.96" y="218.44" smashed="yes">
-<attribute name="NAME" x="40.64" y="236.474" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="40.64" y="200.406" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="J2" gate="G$1" x="60.96" y="231.14" smashed="yes">
+<attribute name="NAME" x="40.64" y="249.174" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="40.64" y="213.106" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="U6" gate="G$1" x="375.92" y="215.9" smashed="yes">
 <attribute name="NAME" x="374.396" y="239.776" size="1.778" layer="95" font="vector"/>
@@ -27537,36 +27542,36 @@ Iout: 2A Max</text>
 <instance part="GND34" gate="1" x="327.66" y="215.9" smashed="yes">
 <attribute name="VALUE" x="325.12" y="213.36" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C6" gate="G$1" x="109.22" y="223.52" smashed="yes">
-<attribute name="NAME" x="110.744" y="226.441" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="110.744" y="221.361" size="1.778" layer="96" font="vector"/>
+<instance part="C6" gate="G$1" x="109.22" y="236.22" smashed="yes">
+<attribute name="NAME" x="110.744" y="239.141" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="110.744" y="234.061" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C7" gate="G$1" x="10.16" y="226.06" smashed="yes">
-<attribute name="NAME" x="12.319" y="229.616" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="12.319" y="219.964" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C7" gate="G$1" x="10.16" y="238.76" smashed="yes">
+<attribute name="NAME" x="12.319" y="242.316" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="12.319" y="232.664" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C9" gate="G$1" x="5.08" y="226.06" smashed="yes">
-<attribute name="NAME" x="7.493" y="229.616" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="7.239" y="219.964" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C9" gate="G$1" x="5.08" y="238.76" smashed="yes">
+<attribute name="NAME" x="7.493" y="242.316" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="7.239" y="232.664" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="5.08" y="218.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="5.08" y="218.186" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND9" gate="1" x="5.08" y="231.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="5.08" y="230.886" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="10.16" y="218.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="10.16" y="218.186" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND10" gate="1" x="10.16" y="231.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="10.16" y="230.886" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="109.22" y="215.9" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="109.22" y="215.646" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND11" gate="1" x="109.22" y="228.6" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="109.22" y="228.346" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C10" gate="G$1" x="15.24" y="226.06" smashed="yes">
-<attribute name="NAME" x="17.399" y="229.362" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="17.399" y="219.964" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C10" gate="G$1" x="15.24" y="238.76" smashed="yes">
+<attribute name="NAME" x="17.399" y="242.062" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="17.399" y="232.664" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="15.24" y="236.22" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="15.24" y="239.014" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="15.24" y="248.92" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="15.24" y="251.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND35" gate="1" x="15.24" y="218.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="15.24" y="218.186" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND35" gate="1" x="15.24" y="231.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="15.24" y="230.886" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="H1" gate="G$1" x="421.64" y="30.48" smashed="yes"/>
 <instance part="H2" gate="G$1" x="424.18" y="30.48" smashed="yes"/>
@@ -27630,8 +27635,8 @@ Iout: 2A Max</text>
 <label x="144.78" y="50.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="226.06" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
-<label x="88.9" y="226.06" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="238.76" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
+<label x="88.9" y="238.76" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="SCL/DIO1/AD1"/>
 </segment>
 <segment>
@@ -27703,8 +27708,8 @@ Iout: 2A Max</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="203.2" x2="38.1" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="200.66" x2="35.56" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="215.9" x2="38.1" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="213.36" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="GND"/>
 </segment>
@@ -27804,22 +27809,22 @@ Iout: 2A Max</text>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="10.16" y1="223.52" x2="10.16" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="236.22" x2="10.16" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="5.08" y1="223.52" x2="5.08" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="236.22" x2="5.08" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="109.22" y1="218.44" x2="109.22" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="231.14" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="220.98" x2="15.24" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="233.68" x2="15.24" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="58.42" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
@@ -27862,10 +27867,10 @@ Iout: 2A Max</text>
 <wire x1="289.56" y1="71.12" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="236.22" x2="35.56" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="248.92" x2="35.56" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <pinref part="J2" gate="G$1" pin="VCC"/>
-<wire x1="35.56" y1="233.68" x2="38.1" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="246.38" x2="38.1" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VCC"/>
@@ -27918,17 +27923,17 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="231.14" x2="15.24" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="243.84" x2="15.24" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="233.68" x2="15.24" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="231.14" x2="10.16" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="233.68" x2="15.24" y2="233.68" width="0.1524" layer="91"/>
-<junction x="15.24" y="233.68"/>
+<wire x1="15.24" y1="246.38" x2="15.24" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="243.84" x2="10.16" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="246.38" x2="15.24" y2="246.38" width="0.1524" layer="91"/>
+<junction x="15.24" y="246.38"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="231.14" x2="5.08" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="233.68" x2="10.16" y2="233.68" width="0.1524" layer="91"/>
-<junction x="10.16" y="233.68"/>
+<wire x1="5.08" y1="243.84" x2="5.08" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="246.38" x2="10.16" y2="246.38" width="0.1524" layer="91"/>
+<junction x="10.16" y="246.38"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -28055,8 +28060,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D13/TXO" class="0">
 <segment>
-<wire x1="35.56" y1="213.36" x2="38.1" y2="213.36" width="0.1524" layer="91"/>
-<label x="35.56" y="213.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="35.56" y1="226.06" x2="38.1" y2="226.06" width="0.1524" layer="91"/>
+<label x="35.56" y="226.06" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="DOUT"/>
 </segment>
 <segment>
@@ -28072,8 +28077,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D14/RXI" class="0">
 <segment>
-<wire x1="35.56" y1="210.82" x2="38.1" y2="210.82" width="0.1524" layer="91"/>
-<label x="35.56" y="210.82" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="35.56" y1="223.52" x2="38.1" y2="223.52" width="0.1524" layer="91"/>
+<label x="35.56" y="223.52" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="DIN/!CONFIG!"/>
 </segment>
 <segment>
@@ -28089,8 +28094,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D12/SPI_POCI" class="0">
 <segment>
-<wire x1="88.9" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
-<label x="88.9" y="203.2" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="215.9" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
+<label x="88.9" y="215.9" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="POCI/DIO12"/>
 </segment>
 <segment>
@@ -28101,13 +28106,13 @@ Iout: 2A Max</text>
 </net>
 <net name="!RESET!" class="0">
 <segment>
-<wire x1="111.76" y1="231.14" x2="109.22" y2="231.14" width="0.1524" layer="91"/>
-<label x="111.76" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="111.76" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
+<label x="111.76" y="243.84" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="!RESET!"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="228.6" x2="109.22" y2="231.14" width="0.1524" layer="91"/>
-<junction x="109.22" y="231.14"/>
+<wire x1="109.22" y1="243.84" x2="86.36" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="241.3" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
+<junction x="109.22" y="243.84"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
@@ -28127,8 +28132,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D10/RSSI_PWM" class="0">
 <segment>
-<wire x1="35.56" y1="228.6" x2="38.1" y2="228.6" width="0.1524" layer="91"/>
-<label x="35.56" y="228.6" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="35.56" y1="241.3" x2="38.1" y2="241.3" width="0.1524" layer="91"/>
+<label x="35.56" y="241.3" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="VUSB/RSSI/DIO10"/>
 </segment>
 <segment>
@@ -28139,8 +28144,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D8/!DTR!" class="0">
 <segment>
-<wire x1="86.36" y1="208.28" x2="88.9" y2="208.28" width="0.1524" layer="91"/>
-<label x="88.9" y="208.28" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="86.36" y1="220.98" x2="88.9" y2="220.98" width="0.1524" layer="91"/>
+<label x="88.9" y="220.98" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="DTR/DIO8"/>
 </segment>
 <segment>
@@ -28156,8 +28161,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D4/SPI_PICO" class="0">
 <segment>
-<wire x1="86.36" y1="218.44" x2="88.9" y2="218.44" width="0.1524" layer="91"/>
-<label x="88.9" y="218.44" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="86.36" y1="231.14" x2="88.9" y2="231.14" width="0.1524" layer="91"/>
+<label x="88.9" y="231.14" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="PICO/TX2/DIO4"/>
 </segment>
 <segment>
@@ -28168,8 +28173,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D7/!CTS!" class="0">
 <segment>
-<wire x1="88.9" y1="210.82" x2="86.36" y2="210.82" width="0.1524" layer="91"/>
-<label x="88.9" y="210.82" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="223.52" x2="86.36" y2="223.52" width="0.1524" layer="91"/>
+<label x="88.9" y="223.52" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="!CTS!/DIO7"/>
 </segment>
 <segment>
@@ -28180,8 +28185,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D9/!SLEEP!" class="0">
 <segment>
-<wire x1="88.9" y1="205.74" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
-<label x="88.9" y="205.74" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="218.44" x2="86.36" y2="218.44" width="0.1524" layer="91"/>
+<label x="88.9" y="218.44" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="!SLEEP!/DIO9"/>
 </segment>
 <segment>
@@ -28192,8 +28197,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D5/ASSOCIATE" class="0">
 <segment>
-<wire x1="88.9" y1="215.9" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
-<label x="88.9" y="215.9" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="228.6" x2="86.36" y2="228.6" width="0.1524" layer="91"/>
+<label x="88.9" y="228.6" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="ASSOCIATE/DIO5"/>
 </segment>
 <segment>
@@ -28210,8 +28215,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D6/!RTS!" class="0">
 <segment>
-<wire x1="88.9" y1="213.36" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
-<label x="88.9" y="213.36" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="226.06" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
+<label x="88.9" y="226.06" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="!RTS!/DIO6"/>
 </segment>
 <segment>
@@ -28227,8 +28232,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D3/SPI_!CS!" class="0">
 <segment>
-<wire x1="88.9" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
-<label x="88.9" y="220.98" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="233.68" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
+<label x="88.9" y="233.68" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="!CS!/!CTS2!/DIO3/AD3"/>
 </segment>
 <segment>
@@ -28239,8 +28244,8 @@ Iout: 2A Max</text>
 </net>
 <net name="D2/SPI_CLK" class="0">
 <segment>
-<wire x1="88.9" y1="223.52" x2="86.36" y2="223.52" width="0.1524" layer="91"/>
-<label x="88.9" y="223.52" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
+<label x="88.9" y="236.22" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="ATTN/CLK/!RTS2!/DIO2/AD2"/>
 </segment>
 <segment>
@@ -28266,8 +28271,8 @@ Iout: 2A Max</text>
 <pinref part="J5" gate="J1" pin="1"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="228.6" x2="86.36" y2="228.6" width="0.1524" layer="91"/>
-<label x="88.9" y="228.6" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="88.9" y1="241.3" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
+<label x="88.9" y="241.3" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="DIO0/AD0"/>
 </segment>
 </net>
@@ -28287,8 +28292,8 @@ Iout: 2A Max</text>
 </net>
 <net name="XBEE_D+/SDA" class="2">
 <segment>
-<wire x1="35.56" y1="226.06" x2="38.1" y2="226.06" width="0.1524" layer="91"/>
-<label x="35.56" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="238.76" x2="38.1" y2="238.76" width="0.1524" layer="91"/>
+<label x="35.56" y="238.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="D+/SDA/DIO11"/>
 </segment>
 <segment>
@@ -28299,8 +28304,8 @@ Iout: 2A Max</text>
 </net>
 <net name="XBEE_D-" class="2">
 <segment>
-<wire x1="35.56" y1="223.52" x2="38.1" y2="223.52" width="0.1524" layer="91"/>
-<label x="35.56" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="236.22" x2="38.1" y2="236.22" width="0.1524" layer="91"/>
+<label x="35.56" y="236.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="D-"/>
 </segment>
 <segment>
