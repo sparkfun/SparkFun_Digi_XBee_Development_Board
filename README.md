@@ -1,9 +1,9 @@
-SparkFun XBee Smart Modem
+SparkFun XBee 3 Cat 1 Smart Modem
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun XBee 3 Cat 1 Smart Modem](URL for picture of part)](https://www.sparkfun.com/products/21636)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun XBee 3 Cat 1 Smart Modem (21636)*](https://www.sparkfun.com/products/21636)
 
 <Basic description of the part.>
 
