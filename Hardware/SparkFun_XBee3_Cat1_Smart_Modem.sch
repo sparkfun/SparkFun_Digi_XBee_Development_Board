@@ -27677,11 +27677,11 @@ Iout: 2A Max</text>
 <instance part="RLED" gate="G$1" x="294.64" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.72" y="42.672" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="40.64" y="177.8" smashed="yes">
-<attribute name="VALUE" x="40.64" y="180.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY23" gate="G$1" x="40.64" y="170.18" smashed="yes">
+<attribute name="VALUE" x="40.64" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="45.72" y="177.8" smashed="yes">
-<attribute name="VALUE" x="45.72" y="180.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY24" gate="G$1" x="45.72" y="170.18" smashed="yes">
+<attribute name="VALUE" x="45.72" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND17" gate="1" x="45.72" y="132.08" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="45.72" y="131.826" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
@@ -28039,7 +28039,7 @@ Iout: 2A Max</text>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="160.02" x2="40.64" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="160.02" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
 <pinref part="J6" gate="J1" pin="1"/>
@@ -28562,7 +28562,7 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <wire x1="38.1" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="167.64" x2="45.72" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="167.64" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="G$1" pin="VIN"/>
 <pinref part="J7" gate="G$1" pin="2"/>
 </segment>
