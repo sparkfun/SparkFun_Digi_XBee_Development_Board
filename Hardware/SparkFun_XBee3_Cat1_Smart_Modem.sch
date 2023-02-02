@@ -27125,7 +27125,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R14" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
@@ -27154,7 +27154,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-IC-Special-Function" deviceset="FSUSB30MUX" device="_MSOP10"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
@@ -27329,7 +27329,6 @@ Iout: 2A Max</text>
 <attribute name="VALUE" x="167.64" y="63.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="J1" x="137.16" y="243.84" smashed="yes">
-<attribute name="VALUE" x="134.62" y="231.394" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="134.62" y="254.254" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND4" gate="1" x="152.4" y="218.44" smashed="yes" rot="MR0">
@@ -27420,7 +27419,6 @@ Iout: 2A Max</text>
 <attribute name="VALUE" x="35.56" y="251.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="J1" x="226.06" y="243.84" smashed="yes">
-<attribute name="VALUE" x="223.52" y="231.394" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="223.52" y="254.254" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND23" gate="1" x="241.3" y="218.44" smashed="yes" rot="MR0">
