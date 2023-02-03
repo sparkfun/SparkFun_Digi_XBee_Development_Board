@@ -27243,7 +27243,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="45.72" y="261.62" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
-<text x="368.3" y="266.7" size="2.54" layer="94" font="vector" align="center">USB-C and USB to UART Bridge  - (CP2104/2N)</text>
+<text x="368.3" y="266.7" size="2.54" layer="94" font="vector" align="center">USB to UART Bridge  - CP2104/2N</text>
 <text x="203.454" y="197.866" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
 <text x="360.172" y="165.1" size="2.54" layer="94" font="vector" align="center">Lipo Battery Connector</text>
 <text x="190.246" y="213.868" size="1.778" layer="97" font="vector">Cut SHLD/SHLD1 jumper to disconnect
