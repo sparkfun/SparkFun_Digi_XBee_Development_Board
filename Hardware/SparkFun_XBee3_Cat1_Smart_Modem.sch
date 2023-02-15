@@ -27697,7 +27697,7 @@ USB Shields from Ground. </text>
 <wire x1="294.64" y1="172.72" x2="294.64" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="294.64" y1="172.72" x2="431.8" y2="172.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v02</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="99.06" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
@@ -29027,14 +29027,14 @@ Iout: 2A Max</text>
 <wire x1="45.72" y1="165.1" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="ALED" class="0">
 <segment>
 <pinref part="ALED" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="289.56" y1="48.26" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="PLED" class="0">
 <segment>
 <pinref part="PLED" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -29119,7 +29119,7 @@ Iout: 2A Max</text>
 <pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RLED" class="0">
 <segment>
 <pinref part="RLED" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="C"/>
