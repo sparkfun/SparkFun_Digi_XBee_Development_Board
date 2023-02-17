@@ -23932,6 +23932,20 @@ Made for the small  &lt;a href="https://www.sparkfun.com/products/18221"&gt; 1mm
 <text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="1X01_NO_SILK_STAND">
+<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JST_2MM_MALE">
@@ -24949,6 +24963,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </technologies>
 </device>
 <device name="PTH_THIN_NO-SILK" package="1X01_THIN_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH_NO_SILK_STAND" package="1X01_NO_SILK_STAND">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -27747,8 +27769,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J9" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
@@ -28191,8 +28213,8 @@ Iout: 2A Max</text>
 <instance part="SUPPLY23" gate="G$1" x="40.64" y="170.18" smashed="yes">
 <attribute name="VALUE" x="40.64" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND17" gate="1" x="48.26" y="132.08" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="48.26" y="131.826" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND17" gate="1" x="45.72" y="127" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="45.72" y="126.746" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="238.76" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="235.458" y="67.31" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -28464,10 +28486,10 @@ Iout: 2A Max</text>
 <wire x1="294.64" y1="38.1" x2="294.64" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="137.16" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="J6" gate="J1" pin="10"/>
-<wire x1="48.26" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -29151,8 +29173,8 @@ Iout: 2A Max</text>
 <label x="210.82" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
-<label x="76.2" y="132.08" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="78.74" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
+<label x="78.74" y="132.08" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 </net>
