@@ -15142,6 +15142,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="36.8554" y="14.986" extent="1-16" drill="0.3048"/>
 <via x="17.1196" y="15.0368" extent="1-16" drill="0.3048"/>
 <via x="27.9146" y="15.0622" extent="1-16" drill="0.3048"/>
+<via x="27.6606" y="13.6906" extent="1-16" drill="0.3048"/>
+<via x="30.0482" y="12.6492" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="I2C_PU" pad="2"/>
@@ -15253,17 +15255,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U7" pad="13"/>
 <wire x1="27.94" y1="33.401" x2="28.0924" y2="33.401" width="0.762" layer="16"/>
 <wire x1="28.0924" y1="33.401" x2="28.8544" y2="32.639" width="0.762" layer="16"/>
-<wire x1="30.099" y1="26.543" x2="29.7948" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="33.108" y1="21.971" x2="33.147" y2="23.114" width="0" layer="19" extent="1-1"/>
-<wire x1="13.12" y1="19.304" x2="13.081" y2="20.447" width="0" layer="19" extent="1-1"/>
-<wire x1="28.917" y1="25.781" x2="30.099" y2="25.654" width="0" layer="19" extent="1-1"/>
-<wire x1="31.662" y1="13.589" x2="30.48" y2="13.589" width="0" layer="19" extent="1-1"/>
-<wire x1="28.917" y1="24.2824" x2="30.099" y2="24.638" width="0" layer="19" extent="1-1"/>
-<wire x1="33.3375" y1="20.4597" x2="33.108" y2="21.971" width="0" layer="19" extent="1-1"/>
-<wire x1="31.4325" y1="15.1003" x2="31.662" y2="13.589" width="0" layer="19" extent="1-1"/>
-<wire x1="30.7975" y1="15.1003" x2="31.4325" y2="15.1003" width="0" layer="19" extent="1-1"/>
-<wire x1="30.1625" y1="15.1003" x2="30.7975" y2="15.1003" width="0" layer="19" extent="1-1"/>
-<wire x1="13.12" y1="17.78" x2="13.12" y2="19.304" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="D5" pad="A"/>
@@ -15884,8 +15875,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="25.527" y="29.591"/>
 <vertex x="23.622" y="29.591"/>
 </polygon>
-<wire x1="26.6448" y1="29.21" x2="26.25" y2="32.512" width="0" layer="19" extent="1-1"/>
-<wire x1="24.2351" y1="29.21" x2="26.6448" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EN">
 <via x="19.05" y="31.115" extent="1-16" drill="0.3048"/>
