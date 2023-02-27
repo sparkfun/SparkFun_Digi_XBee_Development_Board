@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -201,7 +201,7 @@
 <wire x1="20.574" y1="1.524" x2="25.146" y2="1.524" width="0.2032" layer="20"/>
 <wire x1="25.146" y1="1.524" x2="26.67" y2="0" width="0.2032" layer="20" curve="-90"/>
 <text x="24.257" y="1.905" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
-<rectangle x1="27.8384" y1="32.8422" x2="28.0924" y2="33.0962" layer="41"/>
+<rectangle x1="27.8384" y1="33.0962" x2="28.0924" y2="33.3502" layer="41"/>
 <text x="20.447" y="0.381" size="0.762" layer="46" font="vector" ratio="15">Route Out</text>
 <dimension x1="38.1" y1="44.45" x2="0" y2="44.45" x3="19.05" y3="74.93" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="40.64" y1="10.16" x2="40.64" y2="0" x3="55.88" y3="5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -2123,60 +2123,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-1.65" y="-1" radius="0.1436" width="0.2032" layer="21"/>
 <text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Coils">
-<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
-In this library you'll find magnetics.
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
-&lt;li&gt;Ferrite Beads&lt;/li&gt;
-&lt;li&gt;Transformers&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;br&gt;
-&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
-<packages>
-<package name="INDUCTOR_3.9UH">
-<description>&lt;h3&gt;4.8mm x 4.8mm sized inductor&lt;/h3&gt;
-&lt;p&gt;Mechanical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pad Size: 4.2mm x 1.98mm&lt;/li&gt;
-&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:3.15mm&lt;/li&gt;
-&lt;li&gt;Package Size: 4.8mm x 4.8mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.bourns.com/docs/Product-Datasheets/SRR4818A.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="1.6" dx="4" dy="1.98" layer="1"/>
-<smd name="P$2" x="0" y="-1.55" dx="4" dy="1.98" layer="1"/>
-<wire x1="-2.5" y1="-2.6" x2="-2.5" y2="2.7" width="0.1" layer="39"/>
-<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.1" layer="39"/>
-<wire x1="2.5" y1="2.7" x2="2.5" y2="-2.6" width="0.1" layer="39"/>
-<wire x1="2.5" y1="-2.6" x2="-2.5" y2="-2.6" width="0.1" layer="39"/>
-<wire x1="-2.4" y1="-2.4" x2="-2.4" y2="2.4" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="2.4" x2="2.4" y2="2.4" width="0.1" layer="51"/>
-<wire x1="2.4" y1="2.4" x2="2.4" y2="-2.4" width="0.1" layer="51"/>
-<wire x1="2.4" y1="-2.4" x2="-2.4" y2="-2.4" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="-2.4" y2="2.4" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="2.4" x2="-2.2" y2="2.4" width="0.127" layer="21"/>
-<wire x1="2.2" y1="2.4" x2="2.4" y2="2.4" width="0.127" layer="21"/>
-<wire x1="2.4" y1="2.4" x2="2.4" y2="1.9" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-1.9" x2="2.4" y2="-2.4" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-2.4" x2="2.2" y2="-2.4" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-2.4" x2="-2.4" y2="-2.4" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.4" x2="-2.4" y2="-1.9" width="0.127" layer="21"/>
-<text x="-1.45" y="-3.5" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-1.7" y="2.95" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -14373,6 +14319,60 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Coils">
+<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
+In this library you'll find magnetics.
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
+&lt;li&gt;Ferrite Beads&lt;/li&gt;
+&lt;li&gt;Transformers&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
+<packages>
+<package name="INDUCTOR_3.9UH">
+<description>&lt;h3&gt;5mm x 5mm sized inductor&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 4.2mm x 1.6mm&lt;/li&gt;
+&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:3.9mm&lt;/li&gt;
+&lt;li&gt;Package Size: 5mm x 5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.we-online.com/components/products/datasheet/74404052039.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="-2" dx="4" dy="1.6" layer="1"/>
+<wire x1="-2.5" y1="1.95" x2="-2.5" y2="2.45" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.45" x2="-2.3" y2="2.45" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2.45" x2="2.5" y2="2.45" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.45" x2="2.5" y2="1.95" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.05" x2="2.5" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.55" x2="2.3" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-2.55" x2="-2.5" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.55" x2="-2.5" y2="-2.05" width="0.127" layer="21"/>
+<text x="-1.45" y="-3.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-1.7" y="3" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="P$2" x="0" y="1.9" dx="4" dy="1.6" layer="1"/>
+<wire x1="-2.5" y1="-2.55" x2="2.5" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.55" x2="2.5" y2="2.45" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.45" x2="-2.5" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.45" x2="-2.5" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-2.65" y1="2.8" x2="-2.65" y2="-2.9" width="0.1" layer="39"/>
+<wire x1="-2.65" y1="-2.9" x2="2.65" y2="-2.9" width="0.1" layer="39"/>
+<wire x1="2.65" y1="-2.9" x2="2.65" y2="2.8" width="0.1" layer="39"/>
+<wire x1="2.65" y1="2.8" x2="-2.65" y2="2.8" width="0.1" layer="39"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14725,15 +14725,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="VREG-15244" x="30.48" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.86" y="26.67" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center"/>
 </element>
-<element name="L1" library="SparkFun-Coils" package="INDUCTOR_3.9UH" value="3.9uH" x="28.2448" y="29.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.8028" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="NDUC-18014" x="25.7048" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="3.9uH" x="30.6578" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="C3" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="25.4" y="32.512" smashed="yes">
-<attribute name="NAME" x="25.4" y="33.274" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08604" x="13.97" y="35.052" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="25.4" y="31.75" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C3" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="25.4" y="32.893" smashed="yes">
+<attribute name="NAME" x="25.4" y="33.655" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08604" x="13.97" y="35.433" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="25.4" y="32.131" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603" value="22uF" x="28.067" y="24.2824" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.067" y="23.5204" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -14745,10 +14740,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-14464" x="36.957" y="25.781" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.067" y="26.543" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="1210" value="10uF" x="22.86" y="25.4" smashed="yes">
-<attribute name="NAME" x="22.86" y="26.797" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09824" x="12.7" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.86" y="24.003" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="1210" value="10uF" x="22.606" y="25.4" smashed="yes">
+<attribute name="NAME" x="22.606" y="26.797" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09824" x="12.446" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.606" y="24.003" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="19.05" y="29.21" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.812" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -14942,6 +14937,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="32.258" y="21.209" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="32.258" y="21.971" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="32.258" y="22.733" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="L1" library="SparkFun-Coils" package="INDUCTOR_3.9UH" value="3.9UH" x="28.194" y="29.337" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.494" y="30.787" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="31.194" y="31.037" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -15149,7 +15148,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="I2C_PU" pad="2"/>
 <contactref element="J4" pad="2"/>
 <contactref element="R11" pad="1"/>
-<contactref element="L1" pad="P$2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="U2" pad="1"/>
@@ -15184,7 +15182,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </polygon>
 <wire x1="22.5806" y1="30.2006" x2="22.5552" y2="30.226" width="0.762" layer="16"/>
 <wire x1="22.5552" y1="31.6992" x2="22.5552" y2="30.226" width="0.762" layer="16"/>
-<wire x1="24.257" y1="33.401" x2="27.94" y2="33.401" width="0.762" layer="16"/>
+<wire x1="24.257" y1="33.401" x2="28.0924" y2="33.401" width="0.762" layer="16"/>
 <contactref element="J6" pad="1"/>
 <wire x1="22.5552" y1="31.6992" x2="24.257" y2="33.401" width="0.762" layer="16"/>
 <wire x1="5.842" y1="19.9" x2="5.842" y2="20.8788" width="0.254" layer="1"/>
@@ -15253,8 +15251,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U7" pad="15"/>
 <contactref element="U7" pad="14"/>
 <contactref element="U7" pad="13"/>
-<wire x1="27.94" y1="33.401" x2="28.0924" y2="33.401" width="0.762" layer="16"/>
 <wire x1="28.0924" y1="33.401" x2="28.8544" y2="32.639" width="0.762" layer="16"/>
+<contactref element="L1" pad="P$2"/>
 </signal>
 <signal name="V_USB">
 <contactref element="D5" pad="A"/>
@@ -15536,19 +15534,20 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R12" pad="1"/>
 <contactref element="J2" pad="15"/>
 <via x="17.526" y="33.909" extent="1-16" drill="0.3048"/>
-<wire x1="35.36" y1="34.13" x2="17.747" y2="34.13" width="0.254" layer="1"/>
-<wire x1="17.526" y1="33.909" x2="17.747" y2="34.13" width="0.254" layer="1"/>
+<wire x1="35.36" y1="34.13" x2="34.344" y2="34.13" width="0.254" layer="1"/>
+<wire x1="34.344" y1="34.13" x2="34.09" y2="34.384" width="0.254" layer="1"/>
+<wire x1="34.09" y1="34.384" x2="18.001" y2="34.384" width="0.254" layer="1"/>
+<wire x1="17.526" y1="33.909" x2="18.001" y2="34.384" width="0.254" layer="1"/>
 <contactref element="J5" pad="6"/>
 <wire x1="38.1" y1="31.8218" x2="35.7918" y2="34.13" width="0.254" layer="1"/>
 <wire x1="38.1" y1="31.75" x2="38.1" y2="31.8218" width="0.254" layer="1"/>
 <wire x1="2.7686" y1="32.8676" x2="2.7686" y2="19.9254" width="0.254" layer="1"/>
 <wire x1="2.794" y1="19.9" x2="2.7686" y2="19.9254" width="0.254" layer="1"/>
 <via x="2.7686" y="32.8676" extent="1-16" drill="0.3048"/>
-<wire x1="16.51" y1="33.02" x2="2.921" y2="33.02" width="0.254" layer="16"/>
+<wire x1="16.637" y1="33.02" x2="2.921" y2="33.02" width="0.254" layer="16"/>
 <wire x1="2.7686" y1="32.8676" x2="2.921" y2="33.02" width="0.254" layer="16"/>
 <wire x1="35.36" y1="34.13" x2="35.7918" y2="34.13" width="0.254" layer="1"/>
 <wire x1="17.526" y1="33.909" x2="16.637" y2="33.02" width="0.254" layer="16"/>
-<wire x1="16.637" y1="33.02" x2="16.51" y2="33.02" width="0.254" layer="16"/>
 </signal>
 <signal name="D6/!RTS!">
 <contactref element="J2" pad="16"/>
@@ -15857,24 +15856,24 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="N$1">
 <contactref element="U2" pad="6"/>
 <contactref element="C3" pad="1"/>
-<wire x1="24.55" y1="32.512" x2="24.55" y2="31.3639" width="0.254" layer="1"/>
+<wire x1="24.55" y1="32.893" x2="24.55" y2="31.3639" width="0.254" layer="1"/>
 <wire x1="24.55" y1="31.3639" x2="24.2351" y2="31.049" width="0.254" layer="1"/>
 <wire x1="24.2351" y1="30.16" x2="24.2351" y2="31.049" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U2" pad="5"/>
-<contactref element="L1" pad="P$1"/>
 <contactref element="C3" pad="2"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="23.622" y="28.829"/>
-<vertex x="25.5524" y="28.829"/>
-<vertex x="25.5524" y="27.0256"/>
+<vertex x="25.4254" y="28.829"/>
+<vertex x="25.4254" y="27.0256"/>
 <vertex x="27.559" y="27.0256"/>
-<vertex x="27.559" y="33.02"/>
-<vertex x="25.527" y="33.02"/>
-<vertex x="25.527" y="29.591"/>
+<vertex x="27.559" y="33.528"/>
+<vertex x="25.4" y="33.528"/>
+<vertex x="25.4" y="29.591"/>
 <vertex x="23.622" y="29.591"/>
 </polygon>
+<contactref element="L1" pad="P$1"/>
 </signal>
 <signal name="EN">
 <via x="19.05" y="31.115" extent="1-16" drill="0.3048"/>
