@@ -28030,14 +28030,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=”https://www.we-online.com/components/products/datasheet/74404052039.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <smd name="P$1" x="0" y="-2" dx="4" dy="1.6" layer="1"/>
-<wire x1="-2.5" y1="1.95" x2="-2.5" y2="2.45" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.45" x2="-2.3" y2="2.45" width="0.127" layer="21"/>
-<wire x1="2.3" y1="2.45" x2="2.5" y2="2.45" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.45" x2="2.5" y2="1.95" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.05" x2="2.5" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.55" x2="2.3" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-2.55" x2="-2.5" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.55" x2="-2.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.95" x2="-2.5" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.45" x2="-2.3" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="2.45" x2="2.5" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.45" x2="2.5" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.05" x2="2.5" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.55" x2="2.3" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-2.55" x2="-2.5" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.55" x2="-2.5" y2="-2.05" width="0.2032" layer="21"/>
 <text x="-1.45" y="-3.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.7" y="3" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <smd name="P$2" x="0" y="1.9" dx="4" dy="1.6" layer="1"/>

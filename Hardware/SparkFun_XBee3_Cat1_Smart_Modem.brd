@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="39" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="39" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -34,9 +34,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -84,10 +84,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -183,11 +183,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="63.5" x2="0" y2="0" width="0.254" layer="20"/>
-<wire x1="0" y1="0" x2="19.05" y2="0" width="0.254" layer="20"/>
-<wire x1="26.67" y1="0" x2="45.72" y2="0" width="0.254" layer="20"/>
-<wire x1="45.72" y1="0" x2="45.72" y2="63.5" width="0.254" layer="20"/>
-<wire x1="45.72" y1="63.5" x2="0" y2="63.5" width="0.254" layer="20"/>
+<wire x1="0" y1="63.5" x2="0" y2="0" width="0.2032" layer="20"/>
+<wire x1="0" y1="0" x2="19.05" y2="0" width="0.2032" layer="20"/>
+<wire x1="26.67" y1="0" x2="45.72" y2="0" width="0.2032" layer="20"/>
+<wire x1="45.72" y1="0" x2="45.72" y2="63.5" width="0.2032" layer="20"/>
+<wire x1="45.72" y1="63.5" x2="0" y2="63.5" width="0.2032" layer="20"/>
 <text x="20.32" y="-33.02" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <dimension x1="45.72" y1="54.61" x2="0" y2="54.61" x3="22.86" y3="82.55" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="22.86" y1="5.08" x2="0" y2="5.08" x3="11.43" y3="-13.97" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -14351,14 +14351,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=”https://www.we-online.com/components/products/datasheet/74404052039.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <smd name="P$1" x="0" y="-2" dx="4" dy="1.6" layer="1"/>
-<wire x1="-2.5" y1="1.95" x2="-2.5" y2="2.45" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.45" x2="-2.3" y2="2.45" width="0.127" layer="21"/>
-<wire x1="2.3" y1="2.45" x2="2.5" y2="2.45" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.45" x2="2.5" y2="1.95" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.05" x2="2.5" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.55" x2="2.3" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-2.55" x2="-2.5" y2="-2.55" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.55" x2="-2.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.95" x2="-2.5" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.45" x2="-2.3" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="2.45" x2="2.5" y2="2.45" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.45" x2="2.5" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.05" x2="2.5" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.55" x2="2.3" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-2.55" x2="-2.5" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.55" x2="-2.5" y2="-2.05" width="0.2032" layer="21"/>
 <text x="-1.45" y="-3.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.7" y="3" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <smd name="P$2" x="0" y="1.9" dx="4" dy="1.6" layer="1"/>
@@ -15534,9 +15534,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R12" pad="1"/>
 <contactref element="J2" pad="15"/>
 <via x="17.526" y="33.909" extent="1-16" drill="0.3048"/>
-<wire x1="35.36" y1="34.13" x2="34.344" y2="34.13" width="0.254" layer="1"/>
-<wire x1="34.344" y1="34.13" x2="34.09" y2="34.384" width="0.254" layer="1"/>
-<wire x1="34.09" y1="34.384" x2="18.001" y2="34.384" width="0.254" layer="1"/>
+<wire x1="35.36" y1="34.13" x2="34.471" y2="34.13" width="0.254" layer="1"/>
+<wire x1="34.471" y1="34.13" x2="34.217" y2="34.384" width="0.254" layer="1"/>
+<wire x1="34.217" y1="34.384" x2="18.001" y2="34.384" width="0.254" layer="1"/>
 <wire x1="17.526" y1="33.909" x2="18.001" y2="34.384" width="0.254" layer="1"/>
 <contactref element="J5" pad="6"/>
 <wire x1="38.1" y1="31.8218" x2="35.7918" y2="34.13" width="0.254" layer="1"/>
