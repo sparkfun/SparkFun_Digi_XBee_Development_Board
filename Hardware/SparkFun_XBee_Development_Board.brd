@@ -15722,7 +15722,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="17.0688" y="0"/>
 <vertex x="17.0688" y="6.35"/>
 </polygon>
-<polygon width="0.254" layer="16" rank="2">
+<polygon width="0.254" layer="16" thermals="no" rank="2">
 <vertex x="17.0688" y="6.35"/>
 <vertex x="17.0688" y="0"/>
 <vertex x="8.3058" y="0"/>
