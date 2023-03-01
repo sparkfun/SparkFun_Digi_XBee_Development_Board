@@ -28247,7 +28247,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="45.72" y="261.62" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
+<text x="48.26" y="261.62" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
 <text x="363.22" y="269.24" size="2.54" layer="94" font="vector" align="center">USB to UART Bridge  - FT231XS</text>
 <text x="203.454" y="197.866" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
 <text x="360.172" y="165.1" size="2.54" layer="94" font="vector" align="center">Lipo Battery Connector</text>
@@ -28280,7 +28280,7 @@ Iout: 2A Max</text>
 <wire x1="121.92" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="97" style="longdash"/>
 <text x="172.72" y="96.52" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
 <text x="274.32" y="96.52" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
-<text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">RF Module - XBee 3 Cat 1 Smart Modem</text>
+<text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">RF Module - XBee3</text>
 <wire x1="0" y1="187.96" x2="121.92" y2="187.96" width="0.2032" layer="97" style="longdash"/>
 <text x="60.96" y="180.34" size="2.54" layer="94" font="vector" align="center">0.1" Headers</text>
 </plain>
