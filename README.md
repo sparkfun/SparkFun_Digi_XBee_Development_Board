@@ -1,9 +1,9 @@
-SparkFun XBee 3 Cat 1 Smart Modem
+SparkFun XBee Development Board
 ========================================
 
-[![SparkFun XBee 3 Cat 1 Smart Modem](URL for picture of part)](https://www.sparkfun.com/products/21636)
+[![SparkFun XBee Development Board](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/21636-_01.jpg)](https://www.sparkfun.com/products/21636)
 
-[*SparkFun XBee 3 Cat 1 Smart Modem (21636)*](https://www.sparkfun.com/products/21636)
+[*SparkFun XBee Development Board (21636)*](https://www.sparkfun.com/products/21636)
 
 <Basic description of the part.>
 
@@ -16,8 +16,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-xbee-3-cat-1-smart-modem-hookup-guide)** - Basic hookup guide for the SparkFun XBee 3 Cat 1 Smart Modem.
+* **[Library](GitHub library URL)** - Arduino library for the SparkFun XBee Development Board.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-xbee-3-cat-1-smart-modem-hookup-guide)** - Basic hookup guide for the SparkFun XBee Development Board.
 
 License Information
 -------------------
