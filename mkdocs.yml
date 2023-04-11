@@ -3,7 +3,7 @@ site_name: SparkFun XBee Development Board Hookup Guide
 site_description: A hookup guide for the SparkFun Development Board Board
 site_url: https://sparkfun.github.io/SparkFun_XBee_Development_Board/
 
-edit_uri: edit/docs/
+edit_uri: blob/docs/
 
 repo_url: https://github.com/sparkfun/SparkFun_XBee_Development_Board
 repo_name: sparkfun/SparkFun_XBee_Development_Board/
