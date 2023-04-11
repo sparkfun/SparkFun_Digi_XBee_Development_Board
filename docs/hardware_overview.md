@@ -15,7 +15,7 @@ Input VCC Range: 3.3V-4.3V
 
 ###Qwiic Connector
 
-The Qwiic connector on the SparkFun XBee 3 Cat 1 Smart Modem board provide power and I<sup>2</sup>C connectivity to Qwiic breakout boards. 
+The Qwiic connector on the SparkFun XBee Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. 
 
 <figure markdown>
 [![Qwiic Connector](../assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg "Click to enlarge")
@@ -34,9 +34,12 @@ The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Defau
 
 ###Buck Converter - AP63203
 
-The AP63203 Buck Converter ensures appropriate power supply to the compontents of the board. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
+The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
 
-
+<figure markdown>
+[![DUSB I2C Switch](../assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
+<figcaption markdown>AP63203 Buck Converter</figcaption>
+</figure>
 
 
 ###USB to UART Bridge
@@ -59,7 +62,12 @@ The SparkFun XBee 3 Cat 1 Smart Modem Dev Board includes support for single-cell
 
 ###GPIO
 
+We've broken out the XBee pins to plated through holes on either side of the board. 
 
+<figure markdown>
+[![GPIO](../assets/imgs/21636-XBeeDevBoard-GPIO.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-GPIO.jpg "Click to enlarge")
+<figcaption markdown>GPIO</figcaption>
+</figure>
 
 ###Buttons 
 
@@ -89,26 +97,26 @@ The LED on the development board blinks when the XBee is registered to the cellu
 
 <table class="tg" align="left">
   <tr>
-    <th width="20%"><b>Blink</b></th>
-    <th width="20%"><b>Timing</b></th>
-    <th width="60%"><b>Meaning</b></th>
+    <th width="20%" align="center"><b>Blink</b></th>
+    <th width="20%" align="center"><b>Timing</b></th>
+    <th width="60%" align="left"><b>Meaning</b></th>
   </tr>
   <tr>
-    <td>On</td>
-    <td>Solid</td>
+    <td align="center">On</td>
+    <td align="center">Solid</td>
     <td>Not joined to a mobile network</td>
   </tr>
   <tr>
-    <td>Double blink</td>
-    <td>½ second</td>
+    <td align="center">Double blink</td>
+    <td align="center">½ second</td>
     <td>The last TCP/UDP/SMS attempt failed. If the LED has this
 pattern, you may need to check DI (Remote Manager
 Indicator) or CI (Protocol/Connection Indication) for the cause
 of the error.</td>
   </tr>
   <tr>
-    <td>Single blink</td>
-    <td>1 second</td>
+    <td align="center">Single blink</td>
+    <td align="center">1 second</td>
     <td>Normal operation</td>
   </tr>
 </table>
@@ -123,34 +131,31 @@ The RSSI/PWM output is enabled continuously unlike other XBee products where the
 
 <table class="tg" align="left">
   <tr>
-    <th width="20%"><b>PWM duty cycle</b></th>
-    <th width="20%"><b>Number of LEDs turned on</b></th>
-    <th width="60%"><b>Received signal strength (dBm)</b></th>
+    <th width="20%" align="center"><b>PWM duty cycle</b></th>
+    <th width="20%" align="center"><b>Number of LEDs turned on</b></th>
+    <th width="60%" align="left"><b>Received signal strength (dBm)</b></th>
   </tr>
   <tr>
-    <td>79.39% or more</td>
-    <td>3</td>
+    <td align="center">79.39% or more</td>
+    <td align="center">3</td>
     <td>-83 dBm or higher</td>
   </tr>
   <tr>
-    <td>62.42% to 79.39%</td>
-    <td>2</td>
-    <td> -93 to -83 dBm</td>
+    <td align="center">62.42% to 79.39%</td>
+    <td align="center">2</td>
+    <td align="left"> -93 to -83 dBm</td>
   </tr>
   <tr>
-    <td>45.45% to 62.42%</td>
-    <td>1</td>
-    <td>-103 to -93 dBm</td>
+    <td align="center">45.45% to 62.42%</td>
+    <td align="center">1</td>
+    <td align="left">-103 to -93 dBm</td>
   </tr>
   <tr>
-    <td>Less than 45.45%</td>
-    <td>0</td>
-    <td>Less than -103 dBm, or no cellular network connection</td>
+    <td align="center">Less than 45.45%</td>
+    <td align="center">0</td>
+    <td align="left">Less than -103 dBm, or no cellular network connection</td>
   </tr>
 </table>
-
-
-
 
 
 ###Jumpers
