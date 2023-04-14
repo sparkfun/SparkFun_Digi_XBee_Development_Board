@@ -28470,7 +28470,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D8" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="IO4LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="IOLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -28993,7 +28993,7 @@ Iout: 2A Max</text>
 <instance part="GND42" gate="1" x="304.8" y="33.02" smashed="yes">
 <attribute name="VALUE" x="304.8" y="32.766" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="IO4LED" gate="G$1" x="304.8" y="43.18" smashed="yes" rot="R90">
+<instance part="IOLED" gate="G$1" x="304.8" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="311.15" y="42.926" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
 </instances>
@@ -29287,7 +29287,7 @@ Iout: 2A Max</text>
 <pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IO4LED" gate="G$1" pin="1"/>
+<pinref part="IOLED" gate="G$1" pin="1"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 <wire x1="304.8" y1="38.1" x2="304.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -30077,7 +30077,7 @@ Iout: 2A Max</text>
 </net>
 <net name="RLED1" class="0">
 <segment>
-<pinref part="IO4LED" gate="G$1" pin="2"/>
+<pinref part="IOLED" gate="G$1" pin="2"/>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="304.8" y1="48.26" x2="304.8" y2="50.8" width="0.1524" layer="91"/>
 </segment>

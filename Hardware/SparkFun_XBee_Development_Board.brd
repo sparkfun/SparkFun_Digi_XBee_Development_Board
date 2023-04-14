@@ -15535,7 +15535,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-08272" x="8.128" y="11.43" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.366" y="10.16" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="IO4LED" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="2.54" y="7.366" smashed="yes" rot="MR0">
+<element name="IOLED" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="2.54" y="7.366" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="8.509" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="2.54" y="6.223" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
@@ -15740,7 +15740,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U4" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="R6" pad="1"/>
-<contactref element="IO4LED" pad="1"/>
+<contactref element="IOLED" pad="1"/>
 <via x="22.987" y="34.798" extent="1-16" drill="0.3048"/>
 <wire x1="19.47" y1="14.859" x2="20.32" y2="15.709" width="0.254" layer="1"/>
 <wire x1="20.32" y1="15.709" x2="20.32" y2="16.6069" width="0.254" layer="1"/>
@@ -16627,7 +16627,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.604" y1="8.89" x2="7.024" y2="9.31" width="0.254" layer="1"/>
 </signal>
 <signal name="RLED1">
-<contactref element="IO4LED" pad="2"/>
+<contactref element="IOLED" pad="2"/>
 <contactref element="D8" pad="C"/>
 <wire x1="2.0193" y1="7.366" x2="0.6223" y2="5.969" width="0.254" layer="16"/>
 <wire x1="0.6223" y1="5.969" x2="0.5588" y2="5.969" width="0.254" layer="16"/>
