@@ -23044,42 +23044,6 @@ part number 2062-2P from STA</description>
 <wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
 <wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
-<package name="JST04_1MM_VERT">
-<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
-
-&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
-&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
-&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
-&lt;li&gt;ROHS Compliant&lt;/li&gt;
-&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
-&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
-&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
-<text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="-0.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="0.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="1.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="NC1" x="-2.778" y="3.2" dx="1.2" dy="2" layer="1"/>
-<smd name="NC2" x="2.822" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="1.912" y1="3.87" x2="-1.878" y2="3.87" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="1.33" x2="-3.218" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="0.68" x2="-2.458" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="1.35" x2="3.272" y2="0.66" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="0.66" x2="2.542" y2="0.66" width="0.2032" layer="21"/>
-<circle x="-1.948" y="-0.43" radius="0.2032" width="0" layer="21"/>
-<wire x1="-2.921" y1="3.556" x2="-3.302" y2="3.556" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.556" x2="-3.302" y2="3.175" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.175" x2="-2.921" y2="3.175" width="0.1" layer="51"/>
-<wire x1="2.945" y1="3.154" x2="3.326" y2="3.154" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.154" x2="3.326" y2="3.535" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.535" x2="2.945" y2="3.535" width="0.1" layer="51"/>
-</package>
 <package name="USB-C-16P-4LAYER-ISOLATED">
 <smd name="B6" x="0.75" y="-0.34" dx="0.3" dy="1" layer="1"/>
 <smd name="A7" x="0.25" y="-0.34" dx="0.3" dy="1" layer="1"/>
@@ -24627,6 +24591,41 @@ Made for the small  &lt;a href="https://www.sparkfun.com/products/18221"&gt; 1mm
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="JST04_1MM_VERT">
+<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
+
+&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
+&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
+&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
+&lt;li&gt;ROHS Compliant&lt;/li&gt;
+&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
+&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
+&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="0" y="4.445" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="2.54" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<smd name="1" x="-1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="NC1" x="-2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<wire x1="1.905" y1="3.937" x2="-1.905" y2="3.937" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.397" x2="-3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0.635" x2="-2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.397" x2="3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0.635" x2="2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3" y1="3.5" x2="-3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3.5" x2="-3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3" x2="3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3.5" x2="3" y2="3.5" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -28299,7 +28298,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-18014" constant="no"/>
+<attribute name="VALUE" value="3.9UH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -28453,7 +28455,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="L1" library="SparkFun-Coils" deviceset="3.9UH" device=""/>
+<part name="L1" library="SparkFun-Coils" deviceset="3.9UH" device="" value="3.9UH"/>
 <part name="U4" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
@@ -28493,7 +28495,7 @@ USB Shields from Ground. </text>
 <wire x1="294.64" y1="172.72" x2="294.64" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="294.64" y1="172.72" x2="431.8" y2="172.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v11</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="101.6" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
@@ -28529,15 +28531,15 @@ Iout: 2A Max</text>
 <instance part="GND20" gate="1" x="388.62" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="388.62" y="139.446" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J12" gate="G$1" x="411.48" y="129.54" smashed="yes">
-<attribute name="VALUE" x="408.94" y="124.714" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="408.94" y="135.128" size="1.778" layer="95" font="vector"/>
+<instance part="J12" gate="G$1" x="411.48" y="144.78" smashed="yes">
+<attribute name="VALUE" x="408.94" y="139.954" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="408.94" y="150.368" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND5" gate="1" x="421.64" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="421.64" y="124.206" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND5" gate="1" x="421.64" y="139.7" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="421.64" y="139.446" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="421.64" y="134.62" smashed="yes">
-<attribute name="VALUE" x="421.64" y="137.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="421.64" y="149.86" smashed="yes">
+<attribute name="VALUE" x="421.64" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J4" gate="G$1" x="193.04" y="55.88" smashed="yes">
 <attribute name="VALUE" x="172.72" y="50.546" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -29051,8 +29053,8 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="129.54" x2="421.64" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="129.54" x2="421.64" y2="127" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="144.78" x2="421.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="144.78" x2="421.64" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -29427,8 +29429,8 @@ Iout: 2A Max</text>
 <net name="V_BATT" class="1">
 <segment>
 <pinref part="J12" gate="G$1" pin="2"/>
-<wire x1="419.1" y1="132.08" x2="421.64" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="132.08" x2="421.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="147.32" x2="421.64" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="147.32" x2="421.64" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
 </segment>
 <segment>
