@@ -1573,121 +1573,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="1KOHM" prefix="R">
-<description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
+<deviceset name="330OHM" prefix="R">
+<description>&lt;h3&gt;330Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09769"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
 <device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1695,31 +1587,44 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-07856"/>
-<attribute name="VALUE" value="1k"/>
+<attribute name="PROD_ID" value="RES-00818"/>
+<attribute name="VALUE" value="330"/>
 </technology>
 </technologies>
 </device>
-<device name="-0402-1/16W-1%" package="0402">
+<device name="-HORIZ-1/10W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-8371" constant="no"/>
+<attribute name="VALUE" value="330" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-5%" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
+<attribute name="PROD_ID" value="RES-15407"/>
+<attribute name="VALUE" value="330"/>
 </technology>
 </technologies>
 </device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<device name="-0402T-1/16W-5%" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
-<attribute name="VALUE" value="1k" constant="no"/>
+<attribute name="PROD_ID" value="RES-15407"/>
+<attribute name="VALUE" value="330"/>
 </technology>
 </technologies>
 </device>
@@ -26956,6 +26861,56 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="0" y1="0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
 <wire x1="0" y1="-0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
 </package>
+<package name="LED-1206-BOTTOM">
+<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
+
+1206, surface mount. 
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
+<wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
+<wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
+<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="0.635" x2="0.254" y2="0" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="0.635" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="49"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="51"/>
+<smd name="A" x="-1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
+<smd name="C" x="1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
+<hole x="0" y="0" drill="2.3"/>
+<polygon width="0" layer="51">
+<vertex x="1.1" y="-0.5"/>
+<vertex x="1.1" y="0.5"/>
+<vertex x="1.6" y="0.5"/>
+<vertex x="1.6" y="0.25" curve="90"/>
+<vertex x="1.4" y="0.05"/>
+<vertex x="1.4" y="-0.05" curve="90"/>
+<vertex x="1.6" y="-0.25"/>
+<vertex x="1.6" y="-0.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.1" y="0.5"/>
+<vertex x="-1.1" y="-0.5"/>
+<vertex x="-1.6" y="-0.5"/>
+<vertex x="-1.6" y="-0.25" curve="90"/>
+<vertex x="-1.4" y="-0.05"/>
+<vertex x="-1.4" y="0.05" curve="90"/>
+<vertex x="-1.6" y="0.25"/>
+<vertex x="-1.6" y="0.5"/>
+</polygon>
+<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -27097,6 +27052,110 @@ Standard 0402 sized pads with cathode pin indicator.
 <technology name="">
 <attribute name="PROD_ID" value="DIO-17976" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-GREEN" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Green SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11076”&gt;Makey Makey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00821" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LILYPAD" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09910"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206-BOTTOM" package="LED-1206-BOTTOM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11076" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16512" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805-PG" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -28336,7 +28395,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R14" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
+<part name="UART" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
@@ -28355,8 +28414,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
@@ -28365,7 +28424,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-IC-Special-Function" deviceset="FSUSB30MUX" device="_MSOP10"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
+<part name="DIRECT_USB" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
@@ -28467,8 +28526,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="D8" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
+<part name="D8" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="IOLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 </parts>
@@ -28478,7 +28537,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="48.26" y="261.62" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
 <text x="363.22" y="269.24" size="2.54" layer="94" font="vector" align="center">USB to UART Bridge  - FT231XS</text>
 <text x="203.454" y="197.866" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
-<text x="360.172" y="165.1" size="2.54" layer="94" font="vector" align="center">Lipo Battery Connector</text>
+<text x="360.172" y="165.1" size="2.54" layer="94" font="vector" align="center">Lipo Battery Charger</text>
 <text x="190.246" y="213.868" size="1.778" layer="97" font="vector">Cut SHLD/SHLD1 jumper to disconnect
 USB Shields from Ground. </text>
 <text x="172.72" y="101.6" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
@@ -28511,7 +28570,7 @@ Iout: 2A Max</text>
 <text x="60.96" y="269.24" size="2.54" layer="94" font="vector" align="center">RF Module - XBee3</text>
 <wire x1="0" y1="187.96" x2="121.92" y2="187.96" width="0.2032" layer="97" style="longdash"/>
 <text x="60.96" y="180.34" size="2.54" layer="94" font="vector" align="center">0.1" Headers</text>
-<text x="350.52" y="160.02" size="1.778" layer="97" font="vector">Output: 500mA </text>
+<text x="347.98" y="160.02" size="1.778" layer="97" font="vector">Charge Current: 500mA </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -28562,7 +28621,7 @@ Iout: 2A Max</text>
 <instance part="SUPPLY29" gate="G$1" x="167.64" y="60.96" smashed="yes">
 <attribute name="VALUE" x="167.64" y="63.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="J3" gate="J1" x="137.16" y="243.84" smashed="yes">
+<instance part="UART" gate="J1" x="137.16" y="243.84" smashed="yes">
 <attribute name="NAME" x="134.62" y="254.254" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND4" gate="1" x="152.4" y="218.44" smashed="yes" rot="MR0">
@@ -28619,11 +28678,11 @@ Iout: 2A Max</text>
 </instance>
 <instance part="R11" gate="G$1" x="271.78" y="66.04" smashed="yes" rot="MR270">
 <attribute name="NAME" x="275.59" y="68.072" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="274.828" y="63.754" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<attribute name="VALUE" x="275.59" y="63.754" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="271.78" y="55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="267.97" y="53.975" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="269.24" y="53.213" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="268.732" y="54.229" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="268.732" y="53.975" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
 <instance part="GND12" gate="1" x="271.78" y="33.02" smashed="yes">
 <attribute name="VALUE" x="271.78" y="32.766" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -28652,7 +28711,7 @@ Iout: 2A Max</text>
 <instance part="SUPPLY10" gate="G$1" x="17.78" y="248.92" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="17.78" y="251.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="J1" gate="J1" x="226.06" y="243.84" smashed="yes">
+<instance part="DIRECT_USB" gate="J1" x="226.06" y="243.84" smashed="yes">
 <attribute name="NAME" x="223.52" y="254.254" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND23" gate="1" x="241.3" y="218.44" smashed="yes" rot="MR0">
@@ -28952,35 +29011,35 @@ Iout: 2A Max</text>
 <attribute name="VALUE" x="334.264" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="D7" gate="G$1" x="337.82" y="129.54" smashed="yes">
-<attribute name="NAME" x="334.391" y="124.968" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="339.725" y="124.968" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="331.978" y="128.397" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="336.296" y="124.333" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="C8" gate="G$1" x="330.2" y="134.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="329.184" y="137.414" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="329.184" y="132.588" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C8" gate="G$1" x="327.66" y="134.62" smashed="yes" rot="MR0">
+<attribute name="NAME" x="326.644" y="137.414" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="326.644" y="132.588" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="C15" gate="G$1" x="383.54" y="137.16" smashed="yes">
 <attribute name="NAME" x="382.905" y="140.462" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="382.905" y="131.064" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="GND33" gate="1" x="330.2" y="127" smashed="yes">
-<attribute name="VALUE" x="330.2" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND33" gate="1" x="327.66" y="119.38" smashed="yes">
+<attribute name="VALUE" x="327.66" y="119.126" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND34" gate="1" x="368.3" y="137.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="368.3" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND34" gate="1" x="368.3" y="119.38" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="368.3" y="119.126" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND40" gate="1" x="383.54" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="383.54" y="126.746" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND40" gate="1" x="383.54" y="119.38" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="383.54" y="119.126" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="R6" gate="G$1" x="375.92" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.396" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="372.364" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND41" gate="1" x="375.92" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="375.92" y="126.746" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND41" gate="1" x="375.92" y="119.38" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="375.92" y="119.126" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY25" gate="G$1" x="330.2" y="152.146" smashed="yes">
-<attribute name="VALUE" x="330.2" y="154.94" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY25" gate="G$1" x="327.66" y="152.146" smashed="yes">
+<attribute name="VALUE" x="327.66" y="154.94" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D8" gate="G$1" x="304.8" y="55.88" smashed="yes">
 <attribute name="NAME" x="309.626" y="55.753" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -29064,7 +29123,7 @@ Iout: 2A Max</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="GND"/>
+<pinref part="UART" gate="J1" pin="GND"/>
 <wire x1="149.86" y1="236.22" x2="152.4" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="236.22" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -29113,7 +29172,7 @@ Iout: 2A Max</text>
 <pinref part="J2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="GND"/>
+<pinref part="DIRECT_USB" gate="J1" pin="GND"/>
 <wire x1="238.76" y1="236.22" x2="241.3" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="236.22" x2="241.3" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -29267,23 +29326,23 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="383.54" y1="129.54" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="121.92" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VSS"/>
 <wire x1="365.76" y1="142.24" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="142.24" x2="368.3" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="142.24" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="330.2" y1="129.54" x2="330.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="121.92" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="375.92" y1="129.54" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="121.92" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -29414,7 +29473,7 @@ Iout: 2A Max</text>
 <pinref part="SUPPLY19" gate="G$1" pin="V_USB"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="VBUS"/>
+<pinref part="UART" gate="J1" pin="VBUS"/>
 <wire x1="149.86" y1="251.46" x2="152.4" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="254" x2="152.4" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="V_USB"/>
@@ -29470,7 +29529,7 @@ Iout: 2A Max</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J3" gate="J1" pin="CC2"/>
+<pinref part="UART" gate="J1" pin="CC2"/>
 <wire x1="149.86" y1="241.3" x2="162.56" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="241.3" x2="162.56" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R8" gate="R1" pin="2"/>
@@ -29478,7 +29537,7 @@ Iout: 2A Max</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="J3" gate="J1" pin="CC1"/>
+<pinref part="UART" gate="J1" pin="CC1"/>
 <wire x1="149.86" y1="243.84" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="243.84" x2="170.18" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R7" gate="R1" pin="2"/>
@@ -29486,7 +29545,7 @@ Iout: 2A Max</text>
 </net>
 <net name="SHLD" class="0">
 <segment>
-<pinref part="J3" gate="J1" pin="SHLD"/>
+<pinref part="UART" gate="J1" pin="SHLD"/>
 <wire x1="149.86" y1="238.76" x2="157.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="238.76" x2="157.48" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SHLD" gate="G$1" pin="2"/>
@@ -29494,7 +29553,7 @@ Iout: 2A Max</text>
 </net>
 <net name="D+" class="2">
 <segment>
-<pinref part="J3" gate="J1" pin="D+"/>
+<pinref part="UART" gate="J1" pin="D+"/>
 <wire x1="149.86" y1="248.92" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
 <label x="190.5" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="U1" pin="IO4"/>
@@ -29510,7 +29569,7 @@ Iout: 2A Max</text>
 </net>
 <net name="D-" class="2">
 <segment>
-<pinref part="J3" gate="J1" pin="D-"/>
+<pinref part="UART" gate="J1" pin="D-"/>
 <wire x1="190.5" y1="246.38" x2="185.42" y2="246.38" width="0.1524" layer="91"/>
 <label x="190.5" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="U1" pin="IO3"/>
@@ -29804,7 +29863,7 @@ Iout: 2A Max</text>
 <label x="96.52" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="D+"/>
+<pinref part="DIRECT_USB" gate="J1" pin="D+"/>
 <wire x1="238.76" y1="248.92" x2="269.24" y2="248.92" width="0.1524" layer="91"/>
 <label x="276.86" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="U1" pin="IO4"/>
@@ -29820,7 +29879,7 @@ Iout: 2A Max</text>
 <label x="96.52" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="D-"/>
+<pinref part="DIRECT_USB" gate="J1" pin="D-"/>
 <wire x1="276.86" y1="246.38" x2="274.32" y2="246.38" width="0.1524" layer="91"/>
 <label x="276.86" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="U1" pin="IO3"/>
@@ -29831,7 +29890,7 @@ Iout: 2A Max</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="CC2"/>
+<pinref part="DIRECT_USB" gate="J1" pin="CC2"/>
 <wire x1="238.76" y1="241.3" x2="251.46" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="241.3" x2="251.46" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R16" gate="R1" pin="2"/>
@@ -29839,7 +29898,7 @@ Iout: 2A Max</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="CC1"/>
+<pinref part="DIRECT_USB" gate="J1" pin="CC1"/>
 <wire x1="238.76" y1="243.84" x2="259.08" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="243.84" x2="259.08" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R13" gate="R1" pin="2"/>
@@ -29847,7 +29906,7 @@ Iout: 2A Max</text>
 </net>
 <net name="SHLD1" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="SHLD"/>
+<pinref part="DIRECT_USB" gate="J1" pin="SHLD"/>
 <wire x1="238.76" y1="238.76" x2="246.38" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="238.76" x2="246.38" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SHLD1" gate="G$1" pin="2"/>
@@ -29872,7 +29931,7 @@ Iout: 2A Max</text>
 </net>
 <net name="V_USB_2" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="VBUS"/>
+<pinref part="DIRECT_USB" gate="J1" pin="VBUS"/>
 <wire x1="238.76" y1="251.46" x2="241.3" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="254" x2="241.3" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="V_USB_2"/>
@@ -29944,13 +30003,13 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VIN"/>
-<wire x1="330.2" y1="149.86" x2="330.2" y2="152.146" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="149.86" x2="327.66" y2="152.146" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="152.146" x2="330.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="152.146" x2="327.66" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="147.32" x2="337.82" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="147.32" x2="330.2" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="147.32" x2="330.2" y2="139.7" width="0.1524" layer="91"/>
-<junction x="330.2" y="147.32"/>
+<wire x1="337.82" y1="147.32" x2="327.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="147.32" x2="327.66" y2="139.7" width="0.1524" layer="91"/>
+<junction x="327.66" y="147.32"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="144.78" x2="337.82" y2="147.32" width="0.1524" layer="91"/>
 <junction x="337.82" y="147.32"/>
