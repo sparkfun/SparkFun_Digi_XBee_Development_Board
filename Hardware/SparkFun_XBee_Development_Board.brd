@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -15323,15 +15323,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-00867" x="4.826" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="4.826" y="36.322" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0603" value="10nF" x="19.812" y="43.307" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.574" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00867" x="19.812" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.05" y="43.307" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
-<element name="C9" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="18.288" y="43.307" smashed="yes" rot="R270">
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="10nF" x="18.288" y="43.307" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.05" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="18.288" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-00867" x="18.288" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.526" y="43.307" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="19.812" y="43.307" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.574" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00810" x="19.812" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.05" y="43.307" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="10uF" x="21.336" y="43.307" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.098" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -15815,9 +15815,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="21.336" y1="44.157" x2="22.567" y2="44.157" width="0.762" layer="1"/>
 <wire x1="22.567" y1="44.157" x2="22.606" y2="44.196" width="0.762" layer="1"/>
 <via x="22.606" y="44.196" extent="1-16" drill="0.3048"/>
-<wire x1="21.336" y1="44.157" x2="19.812" y2="44.157" width="0.762" layer="1"/>
-<wire x1="19.812" y1="44.157" x2="18.288" y2="44.157" width="0.762" layer="1"/>
-<wire x1="18.288" y1="44.157" x2="16.764" y2="44.157" width="0.762" layer="1"/>
+<wire x1="21.336" y1="44.157" x2="21.2852" y2="44.1062" width="0.762" layer="1"/>
 <wire x1="16.764" y1="44.157" x2="15.24" y2="44.157" width="0.762" layer="1"/>
 <contactref element="C14" pad="1"/>
 <polygon width="0.127" layer="1" thermals="no">
@@ -15866,6 +15864,34 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U7" pad="14"/>
 <contactref element="U7" pad="13"/>
 <contactref element="L1" pad="P$2"/>
+<wire x1="21.336" y1="44.157" x2="19.812" y2="44.157" width="0.762" layer="1"/>
+<wire x1="19.812" y1="44.157" x2="18.288" y2="44.157" width="0.762" layer="1"/>
+<wire x1="18.288" y1="44.157" x2="16.764" y2="44.157" width="0.762" layer="1"/>
+<wire x1="29.9466" y1="40.259" x2="30.7594" y2="40.259" width="0" layer="19" extent="1-1"/>
+<wire x1="30.221" y1="36.957" x2="29.9466" y2="40.259" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="34.163" x2="30.221" y2="36.957" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="33.274" x2="30.48" y2="34.163" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="32.258" x2="30.48" y2="33.274" width="0" layer="19" extent="1-1"/>
+<wire x1="29.298" y1="33.401" x2="30.48" y2="33.274" width="0" layer="19" extent="1-1"/>
+<wire x1="29.298" y1="31.9024" x2="30.48" y2="32.258" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5806" y1="37.8206" x2="30.221" y2="36.957" width="0" layer="19" extent="1-1"/>
+<wire x1="21.2852" y1="44.1062" x2="21.4849" y2="37.78" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="44.45" x2="10.36" y2="44.13" width="0" layer="19" extent="1-1"/>
+<wire x1="33.147" y1="23.114" x2="30.48" y2="32.258" width="0" layer="19" extent="1-1"/>
+<wire x1="33.108" y1="21.971" x2="33.147" y2="23.114" width="0" layer="19" extent="1-1"/>
+<wire x1="33.3375" y1="20.4597" x2="33.108" y2="21.971" width="0" layer="19" extent="1-1"/>
+<wire x1="31.4325" y1="15.1003" x2="33.3375" y2="20.4597" width="0" layer="19" extent="1-1"/>
+<wire x1="30.7975" y1="15.1003" x2="31.4325" y2="15.1003" width="0" layer="19" extent="1-1"/>
+<wire x1="30.1625" y1="15.1003" x2="30.7975" y2="15.1003" width="0" layer="19" extent="1-1"/>
+<wire x1="31.662" y1="13.589" x2="31.4325" y2="15.1003" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="13.589" x2="31.662" y2="13.589" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="16.256" x2="33.3375" y2="20.4597" width="0" layer="19" extent="1-16"/>
+<wire x1="41.791" y1="9.66" x2="41.91" y2="16.256" width="0" layer="19" extent="16-16"/>
+<wire x1="13.12" y1="17.78" x2="30.1625" y2="15.1003" width="0" layer="19" extent="1-1"/>
+<wire x1="13.12" y1="19.304" x2="13.12" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="13.081" y1="20.447" x2="13.12" y2="19.304" width="0" layer="19" extent="1-1"/>
+<wire x1="5.842" y1="20.8788" x2="13.081" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="20.955" x2="5.842" y2="20.8788" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="D5" pad="A"/>
