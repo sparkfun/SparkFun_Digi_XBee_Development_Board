@@ -15778,8 +15778,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="29.464" y="31.3944"/>
 <vertex x="29.464" y="40.7924"/>
-<vertex x="31.242" y="40.7924"/>
-<vertex x="31.242" y="32.385"/>
+<vertex x="31.1912" y="40.7924"/>
+<vertex x="31.1912" y="32.3342"/>
 <vertex x="30.2514" y="31.3944"/>
 </polygon>
 <wire x1="40.64" y1="9.66" x2="41.791" y2="9.66" width="0.508" layer="1"/>
