@@ -1,8 +1,8 @@
 For more information, check out the resources below:
 
-* [Schematic (PDF)](/assets/BoardFiles/21636-SparkFun_XBee_Development_Board-Schematic.pdf)
-* [Eagle Files](/assets/BoardFiles/21636-SparkFun_XBee_Development_Board-EagleFiles.zip)
-* [Board Outline (PNG)](/assets/imgs/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png)
+* [Schematic (PDF)](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-Schematic.pdf)
+* [Eagle Files](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-EagleFiles.zip)
+* [Board Outline (PNG)](assets/imgs/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png)
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_XBee_Development_Board)
  
 Or check out other [XBee Projects](https://learn.sparkfun.com/tutorials/tags/xbee) for inspiration:

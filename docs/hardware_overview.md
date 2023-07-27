@@ -4,13 +4,20 @@ We've kept the XBee socket consistent with the XBee pinout, so this breakout boa
 
 
 <figure markdown>
-[![XBeeSocket](../assets/imgs/21636-XBeeDevBoard-XBeeSocket.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-XBeeSocket.jpg "Click to enlarge")
+[![XBeeSocket](assets/imgs/21636-XBeeDevBoard-XBeeSocket.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-XBeeSocket.jpg "Click to enlarge")
 <figcaption markdown>XBeeSocket</figcaption>
 </figure>
 
 ###Power
-USB-C Connectors
-Input VCC Range: 3.3V-4.3V
+
+There are two USB-C connectors on the board. Input VCC range is between <b>3.3V-4.3V</b>. 
+
+
+<figure markdown>
+[![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-USBC.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-USBC.jpg "Click to enlarge")
+<figcaption markdown>USB-C</figcaption>
+</figure>
+
 
 
 ###Qwiic Connector
@@ -18,7 +25,7 @@ Input VCC Range: 3.3V-4.3V
 The Qwiic connector on the SparkFun XBee Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. 
 
 <figure markdown>
-[![Qwiic Connector](../assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg "Click to enlarge")
+[![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg "Click to enlarge")
 <figcaption markdown>Qwiic Connector</figcaption>
 </figure>
 
@@ -28,7 +35,7 @@ The Qwiic connector on the SparkFun XBee Development Board provides power and I<
 The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Default is Low (I<sup>2</sup>C/SDA).
 
 <figure markdown>
-[![DUSB I2C Switch](../assets/imgs/21636-XBeeDevBoard-DUSB-I2CSwitch.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-DUSB-I2CSwitch.jpg "Click to enlarge")
+[![DUSB I2C Switch](assets/imgs/21636-XBeeDevBoard-DUSB-I2CSwitch.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-DUSB-I2CSwitch.jpg "Click to enlarge")
 <figcaption markdown>DUSB I<sup>2</sup>C Switch</figcaption>
 </figure>
 
@@ -37,7 +44,7 @@ The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Defau
 The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
 
 <figure markdown>
-[![DUSB I2C Switch](../assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
+[![DUSB I2C Switch](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
 <figcaption markdown>AP63203 Buck Converter</figcaption>
 </figure>
 
@@ -47,7 +54,7 @@ The AP63203 Buck Converter ensures appropriate power supply to the components of
 The FT231XS translates data between your computer and the XBee. This is one of our favorite chips because it supports all computer platforms and it's easy to work with. If this is the first FTDI chip you've ever connected to your computer (it probably won't be your last), there is some driver installation to get out of the way. We've written a tutorial detailing [How to Install FTDI Drivers tutorial](tutorials/74).
 
 <figure markdown>
-[![FT231XS USB to UART Bridge](../assets/imgs/21636-XBeeDevBoard-FT231XS.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-FT231XS.jpg "Click to enlarge")
+[![FT231XS USB to UART Bridge](assets/imgs/21636-XBeeDevBoard-FT231XS.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-FT231XS.jpg "Click to enlarge")
 <figcaption markdown>FT231XS USB to UART Bridge</figcaption>
 </figure>
 
@@ -56,7 +63,7 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 The SparkFun XBee 3 Cat 1 Smart Modem Dev Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. 
 
 <figure markdown>
-[![Battery Connector](../assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg "Click to enlarge")
+[![Battery Connector](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg "Click to enlarge")
 <figcaption markdown>Battery Connector</figcaption>
 </figure>
 
@@ -65,7 +72,7 @@ The SparkFun XBee 3 Cat 1 Smart Modem Dev Board includes support for single-cell
 We've broken out the XBee pins to plated through holes on either side of the board. 
 
 <figure markdown>
-[![GPIO](../assets/imgs/21636-XBeeDevBoard-GPIO.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-GPIO.jpg "Click to enlarge")
+[![GPIO](assets/imgs/21636-XBeeDevBoard-GPIO.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-GPIO.jpg "Click to enlarge")
 <figcaption markdown>GPIO</figcaption>
 </figure>
 
@@ -74,7 +81,7 @@ We've broken out the XBee pins to plated through holes on either side of the boa
 There are two buttons - D0 and RST. 
 
 <figure markdown>
-[![Reset and D0 Buttons](../assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg "Click to enlarge")
+[![Reset and D0 Buttons](assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg "Click to enlarge")
 <figcaption markdown>Reset and D0 Buttons</figcaption>
 </figure>
 
@@ -83,7 +90,7 @@ There are two buttons - D0 and RST.
 There are three LEDs on the board: 
 
 <figure markdown>
-[![LEDs](../assets/imgs/21636-XBeeDevBoard-LEDs.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-LEDs.jpg "Click to enlarge")
+[![LEDs](assets/imgs/21636-XBeeDevBoard-LEDs.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-LEDs.jpg "Click to enlarge")
 <figcaption markdown>LEDs</figcaption>
 </figure>
 
@@ -167,7 +174,7 @@ For most applications, the single point grounding of the Direct USB or UART at t
 Cut the SHLD jumper for the UART USB-C; cut the SHLD1 jumper for Direct USB. 
 
 <figure markdown>
-[![Shield Jumpers](../assets/imgs/21636-XBeeDevBoard-Jumper-ShldandShld1.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-Jumper-ShldandShld1.jpg "Click to enlarge")
+[![Shield Jumpers](assets/imgs/21636-XBeeDevBoard-Jumper-ShldandShld1.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Jumper-ShldandShld1.jpg "Click to enlarge")
 <figcaption markdown>Shield Jumpers</figcaption>
 </figure>
 
@@ -180,7 +187,7 @@ If power consumption is an issue (or if you just don't like the LEDs), cut the r
 * ALED: Blue
 
 <figure markdown>
-[![LED Jumpers](../assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg "Click to enlarge")
+[![LED Jumpers](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg "Click to enlarge")
 <figcaption markdown>LED Jumpers</figcaption>
 </figure>
 
@@ -190,7 +197,7 @@ The I<sup>2</sup>C jumper pulls the SDA and SCL pins to VDD (normally 3.3V) thro
 
 
 <figure markdown>
-[![I2C Jumper](../assets/imgs/21636-XBeeDevBoard-Jumper-I2C.jpg){ width="400" }](../assets/imgs/21636-XBeeDevBoard-Jumper-I2C.jpg "Click to enlarge")
+[![I2C Jumper](assets/imgs/21636-XBeeDevBoard-Jumper-I2C.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Jumper-I2C.jpg "Click to enlarge")
 <figcaption markdown>I<sup>2</sup>C Jumper</figcaption>
 </figure>
 
@@ -201,6 +208,6 @@ The overall size of the SparkFun XBee Development Board is 1.8" by 2.5". For spe
 
 
 <figure markdown>
-[![Board Outline](../assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png){ width="600" }](../assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png "Click to enlarge")
+[![Board Outline](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png){ width="600" }](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png "Click to enlarge")
 <figcaption markdown>Board Outline</figcaption>
 </figure>
