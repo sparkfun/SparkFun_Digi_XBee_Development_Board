@@ -194,9 +194,9 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - SparkFun XBee Development Board Arduino Library:
-      - Software Setup: software_setup.md
+      - Software Setup: software_setup_and_programming.md
       - Arduino Examples: examples.md
-  - Resources: resources.md
+  - Resources: resources_and_going_further.md
   - Support:
     - Troubleshooting: troubleshooting.md
     - Submit Issues: github/file_issue.md
