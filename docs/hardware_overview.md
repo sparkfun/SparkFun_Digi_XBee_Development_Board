@@ -130,7 +130,7 @@ of the error.</td>
 
 
 ####RSSI 
-Received Signal Strength Indicator - When configured, this LED reflects the received signal strength
+Received Signal Strength Indicator - When configured, this LED reflects the received signal strength.
 
 RSSI PWM
 The RSSI/PWM output is enabled continuously unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:

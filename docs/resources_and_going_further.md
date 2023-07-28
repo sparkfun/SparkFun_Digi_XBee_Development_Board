@@ -4,7 +4,10 @@ For more information, check out the resources below:
 * [Eagle Files](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-EagleFiles.zip)
 * [Board Outline (PNG)](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png)
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_XBee_Development_Board)
- 
+* [Digi XBee® 3 Cat1 Smart Modem User Guide](assets/BoardFiles/XBee3_LTE_Cat_1-UserGuide-90002503-1.pdf) 
+
+
+
 Or check out other [XBee Projects](https://learn.sparkfun.com/tutorials/tags/xbee) for inspiration:
 
 <table style="border-style:none">
