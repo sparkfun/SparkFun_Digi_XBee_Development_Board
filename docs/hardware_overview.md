@@ -1,6 +1,6 @@
 ###XBee Smart Modem Socket
 
-We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. 
+We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. Either the [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) or the [Digi XBee 3 North America LTE Cat 1, 3G, GNSS, no SIM](https://www.sparkfun.com/products/22330). 
 
 
 <figure markdown>
@@ -96,10 +96,10 @@ There are three LEDs on the board:
 
 ####PWR
 
-Lights up when power is provided to the board. 
+This LED lights up when power is provided to the board. 
 
 ####ASC
-The LED on the development board blinks when the XBee is registered to the cellular network.
+This LED on the development board blinks when the XBee is registered to the cellular network.
 
 
 <table class="tg" align="left">
@@ -130,10 +130,10 @@ of the error.</td>
 
 
 ####RSSI 
-Received Signal Strength Indicator - When configured, this LED reflects the received signal strength.
+This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
 RSSI PWM
-The RSSI/PWM output is enabled continuously unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
+The RSSI/PWM output is enabled continuously, unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
 
 
 <table class="tg" align="left">
