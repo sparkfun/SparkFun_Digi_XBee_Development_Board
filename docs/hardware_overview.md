@@ -185,7 +185,7 @@ If power consumption is an issue (or if you just don't like the LEDs), cut the r
 
 * PLED: Red
 * ALED: Blue
-* RLED (RSSIP: Yellow
+* RLED (RSSI): Yellow
 
 <figure markdown>
 [![LED Jumpers](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg "Click to enlarge")
