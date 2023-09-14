@@ -101,32 +101,11 @@ This LED lights up when power is provided to the board.
 ####ASC
 This LED on the development board blinks when the XBee is registered to the cellular network.
 
-
-<table class="tg" align="left">
-  <tr>
-    <th width="20%" align="center"><b>Blink</b></th>
-    <th width="20%" align="center"><b>Timing</b></th>
-    <th width="60%" align="left"><b>Meaning</b></th>
-  </tr>
-  <tr>
-    <td align="center">On</td>
-    <td align="center">Solid</td>
-    <td>Not joined to a mobile network</td>
-  </tr>
-  <tr>
-    <td align="center">Double blink</td>
-    <td align="center">½ second</td>
-    <td>The last TCP/UDP/SMS attempt failed. If the LED has this
-pattern, you may need to check DI (Remote Manager
-Indicator) or CI (Protocol/Connection Indication) for the cause
-of the error.</td>
-  </tr>
-  <tr>
-    <td align="center">Single blink</td>
-    <td align="center">1 second</td>
-    <td>Normal operation</td>
-  </tr>
-</table>
+| Blink | Timing | Meaning |
+| --- | --- | --------- |
+| On | Solid | Not joined to a mobile network |
+| Double Blink | ½ second | The last TCP/UDP/SMS attempt failed. If the LED has this pattern, you may need to check DI (Remote Manager Indicator) or CI (Protocol/Connection Indication) for the cause of the error. | 
+| Single blink | 1 Second | Normal Operation |
 
 
 ####RSSI 
@@ -135,34 +114,12 @@ This LED is the Received Signal Strength Indicator. When configured, it reflects
 RSSI PWM
 The RSSI/PWM output is enabled continuously, unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
 
-
-<table class="tg" align="left">
-  <tr>
-    <th width="20%" align="center"><b>PWM duty cycle</b></th>
-    <th width="20%" align="center"><b>Number of LEDs turned on</b></th>
-    <th width="60%" align="left"><b>Received signal strength (dBm)</b></th>
-  </tr>
-  <tr>
-    <td align="center">79.39% or more</td>
-    <td align="center">3</td>
-    <td>-83 dBm or higher</td>
-  </tr>
-  <tr>
-    <td align="center">62.42% to 79.39%</td>
-    <td align="center">2</td>
-    <td align="left"> -93 to -83 dBm</td>
-  </tr>
-  <tr>
-    <td align="center">45.45% to 62.42%</td>
-    <td align="center">1</td>
-    <td align="left">-103 to -93 dBm</td>
-  </tr>
-  <tr>
-    <td align="center">Less than 45.45%</td>
-    <td align="center">0</td>
-    <td align="left">Less than -103 dBm, or no cellular network connection</td>
-  </tr>
-</table>
+| PWM duty cycle | Number of LEDs turned on | Received signal strength (dBm) |
+| --- | --- | --------- |
+| 79.39% or more | 3 | 83 dBm or higher |
+| 62.42% to 79.39% | 2 | -93 to -83 dBm |
+| 45.45% to 62.42% | 1 | -103 to -93 dBm |
+| Less than 45.45% | 0 | Less than -103 dBm, or no cellular network connection |
 
 
 ###Jumpers
