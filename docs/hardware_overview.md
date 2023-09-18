@@ -108,7 +108,6 @@ This LED on the development board blinks when the XBee is registered to the cell
 | Single blink | 1 Second | Normal Operation |
 
 
-
 ####RSSI 
 This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
