@@ -28970,19 +28970,19 @@ Iout: 2A Max</text>
 <attribute name="NAME" x="375.92" y="244.094" size="1.778" layer="95"/>
 <attribute name="VALUE" x="375.92" y="207.772" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="C14" gate="G$1" x="370.84" y="203.2" smashed="yes">
-<attribute name="NAME" x="364.744" y="206.121" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="362.204" y="201.041" size="1.778" layer="96" font="vector"/>
+<instance part="C14" gate="G$1" x="368.3" y="215.9" smashed="yes">
+<attribute name="NAME" x="362.204" y="218.821" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="359.664" y="213.741" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C5" gate="G$1" x="358.14" y="236.22" smashed="yes">
-<attribute name="NAME" x="354.584" y="239.141" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="350.774" y="234.061" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="353.06" y="236.22" smashed="yes">
+<attribute name="NAME" x="349.504" y="239.141" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="345.694" y="234.061" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND30" gate="1" x="358.14" y="228.6" smashed="yes">
-<attribute name="VALUE" x="355.6" y="226.06" size="1.778" layer="96" font="vector"/>
+<instance part="GND30" gate="1" x="353.06" y="228.6" smashed="yes">
+<attribute name="VALUE" x="350.52" y="226.06" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND32" gate="1" x="370.84" y="195.58" smashed="yes">
-<attribute name="VALUE" x="365.76" y="193.04" size="1.778" layer="96" font="vector"/>
+<instance part="GND32" gate="1" x="368.3" y="195.58" smashed="yes">
+<attribute name="VALUE" x="363.22" y="193.04" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="L1" gate="G$1" x="261.62" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="260.35" y="144.78" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -29041,11 +29041,11 @@ Iout: 2A Max</text>
 <instance part="IOLED" gate="G$1" x="302.26" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="308.61" y="42.926" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
-<instance part="SUPPLY22" gate="G$1" x="370.84" y="243.84" smashed="yes">
-<attribute name="VALUE" x="370.84" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY22" gate="G$1" x="368.3" y="243.84" smashed="yes">
+<attribute name="VALUE" x="368.3" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="358.14" y="243.84" smashed="yes">
-<attribute name="VALUE" x="358.14" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="353.06" y="243.84" smashed="yes">
+<attribute name="VALUE" x="353.06" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -29298,13 +29298,23 @@ Iout: 2A Max</text>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="231.14" x2="358.14" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="231.14" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="370.84" y1="200.66" x2="370.84" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
+<pinref part="U7" gate="U$1" pin="GND@6"/>
+<wire x1="373.38" y1="213.36" x2="370.84" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="368.3" y1="213.36" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U7" gate="U$1" pin="GND@16"/>
+<wire x1="368.3" y1="205.74" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="210.82" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="210.82" x2="370.84" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="205.74" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
+<junction x="368.3" y="205.74"/>
+<wire x1="370.84" y1="213.36" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
+<junction x="370.84" y="210.82"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -29441,13 +29451,13 @@ Iout: 2A Max</text>
 <segment>
 <pinref part="U7" gate="U$1" pin="VCC"/>
 <pinref part="SUPPLY22" gate="G$1" pin="V_USB"/>
-<wire x1="373.38" y1="241.3" x2="370.84" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="241.3" x2="370.84" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="241.3" x2="368.3" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_USB"/>
-<wire x1="358.14" y1="241.3" x2="358.14" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="241.3" x2="353.06" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT" class="1">
@@ -29527,8 +29537,8 @@ Iout: 2A Max</text>
 <junction x="180.34" y="248.92"/>
 </segment>
 <segment>
-<wire x1="373.38" y1="228.6" x2="368.3" y2="228.6" width="0.1524" layer="91"/>
-<label x="368.3" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="373.38" y1="228.6" x2="365.76" y2="228.6" width="0.1524" layer="91"/>
+<label x="365.76" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U7" gate="U$1" pin="USBDP"/>
 </segment>
 </net>
@@ -29543,8 +29553,8 @@ Iout: 2A Max</text>
 <junction x="185.42" y="246.38"/>
 </segment>
 <segment>
-<wire x1="373.38" y1="231.14" x2="368.3" y2="231.14" width="0.1524" layer="91"/>
-<label x="368.3" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="373.38" y1="231.14" x2="365.76" y2="231.14" width="0.1524" layer="91"/>
+<label x="365.76" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U7" gate="U$1" pin="USBDM"/>
 </segment>
 </net>
@@ -30106,26 +30116,18 @@ Iout: 2A Max</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U7" gate="U$1" pin="GND@16"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="210.82" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="210.82" x2="370.84" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U7" gate="U$1" pin="GND@6"/>
-<wire x1="373.38" y1="213.36" x2="370.84" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="213.36" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
-<junction x="370.84" y="210.82"/>
-<wire x1="370.84" y1="213.36" x2="370.84" y2="223.52" width="0.1524" layer="91"/>
-<junction x="370.84" y="213.36"/>
-<pinref part="U7" gate="U$1" pin="!RESET"/>
-<wire x1="370.84" y1="223.52" x2="373.38" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="U7" gate="U$1" pin="VCCIO"/>
-<wire x1="373.38" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="236.22" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="238.76" x2="368.3" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="236.22" x2="368.3" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="U7" gate="U$1" pin="3V3OUT"/>
-<wire x1="373.38" y1="236.22" x2="370.84" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="223.52" x2="370.84" y2="236.22" width="0.1524" layer="91"/>
-<junction x="370.84" y="223.52"/>
-<junction x="370.84" y="236.22"/>
+<wire x1="373.38" y1="236.22" x2="368.3" y2="236.22" width="0.1524" layer="91"/>
+<junction x="368.3" y="236.22"/>
+<pinref part="U7" gate="U$1" pin="!RESET"/>
+<wire x1="368.3" y1="223.52" x2="373.38" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="223.52" x2="368.3" y2="236.22" width="0.1524" layer="91"/>
+<junction x="368.3" y="223.52"/>
+<wire x1="368.3" y1="223.52" x2="368.3" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
