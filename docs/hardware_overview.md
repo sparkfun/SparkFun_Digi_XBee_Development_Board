@@ -1,3 +1,7 @@
+---
+icon: material/cog
+---
+
 ###XBee Smart Modem Socket
 
 We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. Either the [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) or the [Digi XBee 3 North America LTE Cat 1, 3G, GNSS, no SIM](https://www.sparkfun.com/products/22330). 
@@ -10,7 +14,7 @@ We've kept the XBee socket consistent with the XBee pinout, so this breakout boa
 
 ###Power
 
-There are two USB-C connectors on the board. Input VCC range is between <b>3.3V-4.3V</b>. 
+There are two USB-C connectors on the board. One is a UART/I<sup>2</sup>C connector, the other is the direct USB connector. Input VCC range is between <b>3.3V-4.3V</b>. 
 
 
 <figure markdown>
@@ -60,7 +64,7 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 
 ###Lipo Battery Connector
 
-The SparkFun XBee 3 Cat 1 Smart Modem Dev Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. 
+The SparkFun XBee Development Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. 
 
 <figure markdown>
 [![Battery Connector](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg "Click to enlarge")
@@ -78,7 +82,7 @@ We've broken out the XBee pins to plated through holes on either side of the boa
 
 ###Buttons 
 
-There are two buttons - D0 and RST. 
+There are two buttons - D0 and RST. Reset allows you to reset the board without unplugging, the D0 button is provided for user-defined functionality. 
 
 <figure markdown>
 [![Reset and D0 Buttons](assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-ResetandD0Buttons.jpg "Click to enlarge")

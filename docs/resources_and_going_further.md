@@ -1,4 +1,4 @@
-For more information, check out the resources below:
+For more information related to the SparkFun XBee Development Board, check out the resources below:
 
 * [Schematic (PDF)](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-Schematic.pdf)
 * [Eagle Files](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-EagleFiles.zip)

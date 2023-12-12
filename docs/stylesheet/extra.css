@@ -12,7 +12,7 @@
   text-align: -webkit-center;
 }
 
-
+/* SparkFun dark brand color: #3c464d */
 
 /* Sets the maximum height size of the code blocks */
 /* (code block becomes scrollable, but not compatible when lines are displayed) */
@@ -58,7 +58,7 @@
 
 /* SparkFun ========================================================================= */
 .md-typeset :is(.tip)>:is(.admonition-title,summary):before {
-  background-color: #ee2e22;
+  background-color: #e0311d;
 }
 
 
@@ -265,6 +265,9 @@
   .grid.cards.desc {
     grid-template-columns: 100%;
   }
+  /* .grid.cards.show {
+    grid-template-columns: 100%;
+  } */
 }
 
 
@@ -273,7 +276,9 @@
 /* ================================================================================== */
 
 /* Auto adjust embedded youtube videos size */
-/* height: 47vw * (viewport/element) percentage */
+/* Aspect ratio: height = 56.25% of width */
+/* 90vw = 90% of (viewport width) */
+
 .video {
   position: relative;
   width: 100%;
@@ -282,9 +287,7 @@
   position: relative;
   top: 0;
   width: 90vh;
-  min-width: 200px;
-  height: 16.45vw;
-  min-height: 113px;
+  height: 47vw;
   border: 0;
   overflow: hidden;
 }
@@ -297,52 +300,88 @@
   position: relative;
   top: 0;
   width: 90vh;
-  min-width: 200px;
-  /* height: 12.72vw; */
-  height: calc(calc(calc(100vw - 48.4rem) * 0.35 - 2rem) * 0.9);
-  min-height: 113px;
+  height: 47vw;
   border: 0;
   overflow: hidden;
 }
 
+
+
 /* Add compatibility for mobile devices */
-/* height: 47vw * (viewport) percentage */
+/* ================================================================================== */
+/* ================================================================================== */
 
-/* Single Column */
-@media (max-width: 750px) {
+/* No ToC */
+/* ================================================================================== */
+/* Container/Article boarder: width = 1.6rem */
+@media (max-width: 960px) {
   .video iframe {
-    height: 47vw;
-  }
-
-  .video_desc iframe {
-    /* 100vw * 0.9 * 56.25% (aspect ratio) */
-    height: 50.625vw;
+    width: 90vh;
+    height: calc( (100vw - 1.6rem) * 0.9 * 0.5625);
   }
 }
 
-/* Grid: 35/65 */
+/* Grid Ratio: 1:1 */
+/* Container/Article boarder: width = 1.6rem */
+/* Grid element border: width = 1.6rem */
+@media (max-width: 750px) {
+  .video_desc iframe {
+    height: calc( ( (100vw - 1.6rem) - 1.6rem) * 0.5625);
+  }
+}
+
+/* Grid Ratio: 35/65 */
+/* Container/Article border: width = 1.6rem */
+/* Grid gap: width = 0.4rem */
+/* Grid element border: width = 1.6rem */
 @media (min-width: 751px) {
   .video_desc iframe {
-    /* 100vw * 0.9 * 56.25% (aspect ratio) * 0.35 */
-    height: 17.71875vw;
+    height: calc( ( ( (100vw - 2rem) * 0.35) - 1.6rem) * 0.5625);
   }
 }
 
+
 /* Single ToC */
-@media (min-width: 960px) {
-  .video_desc iframe {
+/* ================================================================================== */
+/* Navigation column: width = 12.1rem  */
+/* Container/Article border: width = 1.6rem */
+/* Grid gap: width = 0.4rem */
+/* Grid element border: width = 1.6rem */
+
     /* height: 12.7vw; */
-    height: calc( ( (100vw - 24.2rem) * 0.35 - 2rem) * 0.9);
+@media (min-width: 960px) {
+  .video iframe {
+    width: 90vh;
+    height: calc( ( (100vw - 12.1rem) - 2rem) * 0.9 * 0.5625);
+    max-height: 458.66px;
+  }
+  /* Grid: 35/65 */
+  .video_desc iframe {
+    height: calc( ( (100vw - 12.1rem - 2rem) * 0.35 - 1.6rem) * 0.5625);
   }
 }
 
 /* Double ToC */
+/* ================================================================================== */
+/* Navigation columns: width = 12.1rem */
+/* Container/Article border: width = 1.6rem */
+/* Grid gap: width = 0.4rem */
+/* Grid element border: width = 1.6rem */
+
 @media (min-width: 1219px) {
+  .video iframe {
+    width: 90vh;
+    height: calc( ( (100vw - 12.1rem * 2) - 2rem) * 0.9 * 0.5625);
+    max-height: 458.66px;
+  }
+  /* Grid: 35/65 */
   .video_desc iframe {
-    /* height: 12.7vw; */
-    height: calc( ( (100vw - 24.2rem * 2) * 0.35 - 2rem) * 0.9);
+    height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.35 - 1.6rem) * 0.5625);
+    max-height: 458.66px;
   }
 }
+
+
 
 /* ================================================================================== */
 /* Parameters for PDF Rendering                                                       */
@@ -352,6 +391,11 @@
 * + .pdf {
   display: none;
 }
+
+.pdf {
+  display: none;
+}
+
 .md-typeset *.qr {
   display: none;
 }
@@ -422,6 +466,10 @@
   /* ================================================================================== */
 
   .video iframe {
+    display: none;
+  }
+
+  .video_desc iframe {
     display: none;
   }
 
