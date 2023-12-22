@@ -2,61 +2,67 @@
 icon: material/book-open-page-variant
 ---
 
-<div class="grid.cards.desc" markdown>
 
-<table class="pdf" style="border-style:none;" markdown="1">
-<tbody markdown="1">
-<tr markdown="1">
-<td align="center" width="35%" markdown="block">
-[![SparkFun XBee Development Board](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/21636-_01.jpg){ width=90% }](https://www.sparkfun.com/products/21636)
+<div class="grid cards desc" markdown>
 
-<center>
-[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
-</center>
-</td>
+-    <a href="https://www.sparkfun.com/products/21636">
+    **SparkFun XBee Development Board**<br>
+    **SKU:** WRL-21636
 
-<td>
-What's in an XBee? In a word (or two) a lot! The SparkFun XBee Development Board breaks out all the functionality of the XBee 3 series you know and love, PLUS the ability to connect to the cellular network, and (drumroll please) GNSS. This is a "Kitchen Sink" Development Board that breaks out the pin functionality of the XBee, includes 2 USB-C connectors for UART communication and Firmware updates, a Qwiic connector for all those lovely I<sup>2</sup>C sensors, as well as Reset and D0 buttons and the ability to switch between Direct USB and I<sup>2</sup>C. There's also a JST port for a battery. 
+    ---
 
-The Digi Remote Manager® allows users to easily configure and control from a central platform. Built-in Digi TrustFence® security, identity and data privacy features use multiple layers of control to protect against new and evolving cyber threats. Standard XBee API frames and AT commands, MicroPython and Digi XCTU® simplify setup, configuration, testing and adding or changing functionality.
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)
+    </figure></a>
+    
+-    What's in an XBee? In a word (or two) a lot! The SparkFun XBee Development Board breaks out all the functionality of the XBee 3 series you know and love, PLUS the ability to connect to the cellular network, and (drumroll please) GNSS. This is a "Kitchen Sink" Development Board that breaks out the pin functionality of the XBee, includes 2 USB-C connectors for UART communication and Firmware updates, a Qwiic connector for all those lovely I<sup>2</sup>C sensors, as well as Reset and D0 buttons and the ability to switch between Direct USB and I<sup>2</sup>C. There's also a JST port for a battery. 
 
+    <center>
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21636){ .md-button .md-button--primary }
+    </center>
 
-</td>
-</tr>
-</tbody>
-</table>
-</div class>
+</div>
+
 
 ## Required Materials
 
 To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.
 
-<table style="border-style:none">
-    <tr>
-        <td>
-            <a href="https://www.sparkfun.com/products/21636">
-                <center><img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun XBee Development Board" height="140"></center>
-                <h3 class="title">SparkFun XBee Development Board</h3>
-            </a>
-            WRL-21636
-        </td>
-        <td>
-            <a href="https://www.sparkfun.com/products/22329">
-                <center><img src="https://cdn.sparkfun.com/assets/parts/2/2/3/2/3/23329-Digi-XBee-3-Low-Power-LTE-M-Feature1.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM" height="140"></center>
-                <h3 class="title">Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM</h3>
-            </a>
-            WRL-22329
-        </td>
-        <td>
-            <a href="https://www.sparkfun.com/products/14743">
-                <center><img src="https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="USB 3.1 Cable A to C - 3 Foot" height="140">
-                </center>
-                <h3 class="title">USB 3.1 Cable A to C - 3 Foot</h3>
-            </a>
-            CAB-14743
-        </td>
-    </tr>
-</table>
+
+<div class="grid cards" markdown>
+
+-   <a href="https://www.sparkfun.com/products/21636">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)
+    </figure>
+
+    ---
+
+    **SparkFun XBee Development Board**<br>
+    WRL-21636</a>
+
+-   <a href="https://www.sparkfun.com/products/22329">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/3/2/3/23329-Digi-XBee-3-Low-Power-LTE-M-Feature1.jpg)
+    </figure>
+
+    ---
+
+    **Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM**<br>
+    WRL-22329</a>
+
+-   <a href="https://www.sparkfun.com/products/14743">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg)
+    </figure>
+
+    ---
+
+    **USB 3.1 Cable A to C - 3 Foot**<br>
+    CAB-14743</a>
+
+</div>
+
 
 
 ## Suggested Reading

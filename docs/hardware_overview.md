@@ -2,7 +2,7 @@
 icon: material/cog
 ---
 
-###XBee Smart Modem Socket
+### XBee Smart Modem Socket
 
 We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. Either the [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) or the [Digi XBee 3 North America LTE Cat 1, 3G, GNSS, no SIM](https://www.sparkfun.com/products/22330). 
 
@@ -12,7 +12,7 @@ We've kept the XBee socket consistent with the XBee pinout, so this breakout boa
 <figcaption markdown>XBeeSocket</figcaption>
 </figure>
 
-###Power
+### Power
 
 There are two USB-C connectors on the board. One is a UART/I<sup>2</sup>C connector, the other is the direct USB connector. Input VCC range is between <b>3.3V-4.3V</b>. 
 
@@ -24,9 +24,9 @@ There are two USB-C connectors on the board. One is a UART/I<sup>2</sup>C connec
 
 
 
-###Qwiic Connector
+### Qwiic Connector
 
-The Qwiic connector on the SparkFun XBee Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. 
+The Qwiic connector on the SparkFun XBee Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
 
 <figure markdown>
 [![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg "Click to enlarge")
@@ -34,7 +34,7 @@ The Qwiic connector on the SparkFun XBee Development Board provides power and I<
 </figure>
 
 
-###USB Switch
+### USB Switch
 
 The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Default is Low (I<sup>2</sup>C/SDA).
 
@@ -43,17 +43,17 @@ The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Defau
 <figcaption markdown>DUSB I<sup>2</sup>C Switch</figcaption>
 </figure>
 
-###Buck Converter - AP63203
+### Buck Converter - AP63203
 
 The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
 
 <figure markdown>
-[![DUSB I2C Switch](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
+[![AP63203 Buck Converter](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
 <figcaption markdown>AP63203 Buck Converter</figcaption>
 </figure>
 
 
-###USB to UART Bridge
+### USB to UART Bridge
 
 The FT231XS translates data between your computer and the XBee. This is one of our favorite chips because it supports all computer platforms and it's easy to work with. If this is the first FTDI chip you've ever connected to your computer (it probably won't be your last), there is some driver installation to get out of the way. We've written a tutorial detailing [How to Install FTDI Drivers tutorial](tutorials/74).
 
@@ -62,16 +62,16 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 <figcaption markdown>FT231XS USB to UART Bridge</figcaption>
 </figure>
 
-###Lipo Battery Connector
+### Lipo Battery Connector
 
-The SparkFun XBee Development Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. 
+The SparkFun XBee Development Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. Bonus - you can charge your LiPo battery if the board is also plugged in. 
 
 <figure markdown>
 [![Battery Connector](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg "Click to enlarge")
 <figcaption markdown>Battery Connector</figcaption>
 </figure>
 
-###GPIO
+### GPIO
 
 We've broken out the XBee pins to plated through holes on either side of the board. 
 
@@ -80,7 +80,7 @@ We've broken out the XBee pins to plated through holes on either side of the boa
 <figcaption markdown>GPIO</figcaption>
 </figure>
 
-###Buttons 
+### Buttons 
 
 There are two buttons - D0 and RST. Reset allows you to reset the board without unplugging, the D0 button is provided for user-defined functionality. 
 
@@ -89,20 +89,25 @@ There are two buttons - D0 and RST. Reset allows you to reset the board without 
 <figcaption markdown>Reset and D0 Buttons</figcaption>
 </figure>
 
-###LEDs
+### LEDs
 
-There are three LEDs on the board: 
+There are multiple LED indicator lights on the board: 
 
 <figure markdown>
-[![LEDs](assets/imgs/21636-XBeeDevBoard-LEDs.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-LEDs.jpg "Click to enlarge")
+[![LEDs](assets/imgs/21636-XBeeDevBoard-LEDs-All.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-LEDs-All.jpg "Click to enlarge")
 <figcaption markdown>LEDs</figcaption>
 </figure>
 
-####PWR
+#### CHG
+
+This LED lights up when the charge circuit is in use.  
+
+#### PWR
 
 This LED lights up when power is provided to the board. 
 
-####ASC
+
+#### ASC
 This LED on the development board blinks when the XBee is registered to the cellular network.
 
 | Blink | Timing | Meaning |
@@ -112,7 +117,7 @@ This LED on the development board blinks when the XBee is registered to the cell
 | Single blink | 1 Second | Normal Operation |
 
 
-####RSSI 
+#### RSSI 
 This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
 RSSI PWM
@@ -126,9 +131,9 @@ The RSSI/PWM output is enabled continuously, unlike other XBee products where th
 | Less than 45.45% | 0 | Less than -103 dBm, or no cellular network connection |
 
 
-###Jumpers
+### Jumpers
 
-####SHLD/SHLD1
+#### SHLD/SHLD1
 
 For most applications, the single point grounding of the Direct USB or UART at the USB-C connector is sufficient. However, should you run into problems with EMI/EMC, we've provided jumpers that allow you to disconnect either connector from ground.
 
@@ -140,7 +145,7 @@ Cut the SHLD jumper for the UART USB-C; cut the SHLD1 jumper for Direct USB.
 </figure>
 
 
-####ALED/PLED
+#### ALED/PLED
 
 If power consumption is an issue (or if you just don't like the LEDs), cut the respective jumper to sever power to the LED. 
 
@@ -153,7 +158,7 @@ If power consumption is an issue (or if you just don't like the LEDs), cut the r
 <figcaption markdown>LED Jumpers</figcaption>
 </figure>
 
-####I2C 
+#### I2C 
 
 The I<sup>2</sup>C jumper pulls the SDA and SCL pins to VDD (normally 3.3V) through two 2.2K Ohm resistors. If you have multiple Qwiic devices on the same bus you may want to disable these by opening the jumper (assuming they are also operating at 3.3V logic).
 
@@ -164,12 +169,12 @@ The I<sup>2</sup>C jumper pulls the SDA and SCL pins to VDD (normally 3.3V) thro
 </figure>
 
 
-###Board Outline
+### Board Outline
 
 The overall size of the SparkFun XBee Development Board is 1.8" by 2.5". For specific measurements, see the image below. 
 
 
 <figure markdown>
-[![Board Outline](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png){ width="600" }](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png "Click to enlarge")
+[![Board Outline](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline1.png){ width="600" }](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline1.png "Click to enlarge")
 <figcaption markdown>Board Outline</figcaption>
 </figure>
