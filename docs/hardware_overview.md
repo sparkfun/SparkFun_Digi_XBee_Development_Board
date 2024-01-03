@@ -106,6 +106,9 @@ This LED lights up when the charge circuit is in use.
 
 This LED lights up when power is provided to the board. 
 
+#### IO4
+
+This Green LED is a user-defined LED connected to D4 of the XBee. 
 
 #### ASC
 This LED on the development board blinks when the XBee is registered to the cellular network.
