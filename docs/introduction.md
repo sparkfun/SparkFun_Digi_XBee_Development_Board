@@ -15,7 +15,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)
     </figure></a>
     
--    What's in an XBee? In a word (or two) a lot! The SparkFun XBee Development Board breaks out all the functionality of the XBee 3 series you know and love, PLUS the ability to connect to the cellular network, and (drumroll please) GNSS. This is a "Kitchen Sink" Development Board that breaks out the pin functionality of the XBee, includes 2 USB-C connectors for UART communication and Firmware updates, a Qwiic connector for all those lovely I<sup>2</sup>C sensors, as well as Reset and D0 buttons and the ability to switch between Direct USB and I<sup>2</sup>C. There's also a JST port for a battery. 
+-    The SparkFun XBee Development Board is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee 3 Low-Power LTE-M/NB-IoT and XBee RR Pro modules. This board breaks out all the functionality of your Xbee module, plus the ability to connect to the cellular network and (drumroll, please) GNSS.  
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21636){ .md-button .md-button--primary }
