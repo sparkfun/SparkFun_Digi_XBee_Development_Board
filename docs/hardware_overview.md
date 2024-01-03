@@ -148,13 +148,14 @@ Cut the SHLD jumper for the UART USB-C; cut the SHLD1 jumper for Direct USB.
 </figure>
 
 
-#### ALED/PLED
+#### ALED/PLED/RLED/IOLED
 
 If power consumption is an issue (or if you just don't like the LEDs), cut the respective jumper to sever power to the LED. 
 
 * PLED: Red
 * ALED: Blue
 * RLED (RSSI): Yellow
+* IOLED: Green
 
 <figure markdown>
 [![LED Jumpers](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Jumper-LEDs.jpg "Click to enlarge")
