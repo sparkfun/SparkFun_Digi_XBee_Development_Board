@@ -1,12 +1,10 @@
-For more information related to the SparkFun XBee Development Board, check out the resources below:
+For more information related to the SparkFun Digi XBee® Development Board, check out the resources below:
 
-* [Schematic (PDF)](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-Schematic.pdf){ target="_blank" }
-* [Eagle Files](assets/BoardFiles/21636-SparkFun_XBee_Development_Board-EagleFiles.zip){ target="_blank" }
-* [Board Outline (PNG)](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline.png){ target="_blank" }
-* [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_XBee_Development_Board){ target="_blank" }
-* [Digi XBee® 3 Cat1 Smart Modem User Guide](assets/BoardFiles/XBee3_LTE_Cat_1-UserGuide-90002503-1.pdf) { target="_blank" }
-
-
+* [Schematic (PDF)](assets/BoardFiles/SparkFun_Digi_XBee_Development_Board_Schematic.pdf){ target="_blank" }
+* [Eagle Files](assets/BoardFiles/SparkFun_Digi_XBee_Development_Board_EagleFiles.zip){ target="_blank" }
+* [Board Outline (PNG)](assets/BoardFiles/21636-SparkFun_Digi_XBee3_Cat1_Smart_Modem-BoardOutline1.png){ target="_blank" }
+* [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Digi_XBee_Development_Board){ target="_blank" }
+* [Digi XBee® 3 Cat1 Smart Modem User Guide](assets/BoardFiles/XBee3_LTE_Cat_1-UserGuide-90002503-1.pdf){ target="_blank" }
 
 Or check out other [XBee Projects](https://learn.sparkfun.com/tutorials/tags/xbee) for inspiration:
 

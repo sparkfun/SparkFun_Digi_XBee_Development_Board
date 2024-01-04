@@ -2,9 +2,9 @@
 icon: material/cog
 ---
 
-### XBee Smart Modem Socket
+### Digi XBee® Smart Modem Socket
 
-We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. The [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
+We've kept the Digi XBee® socket consistent with the Digi XBee® pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee® boards. The [Digi XBee® 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
 
 
 <figure markdown>
@@ -26,7 +26,7 @@ There are two USB-C connectors on the board. One is a UART/I<sup>2</sup>C connec
 
 ### Qwiic Connector
 
-The Qwiic connector on the SparkFun XBee Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
+The Qwiic connector on the SparkFun Digi XBee® Development Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
 
 <figure markdown>
 [![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-QwiicConnex.jpg "Click to enlarge")
@@ -64,7 +64,7 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 
 ### Lipo Battery Connector
 
-The SparkFun XBee Development Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. Bonus - you can charge your LiPo battery if the board is also plugged in. 
+The SparkFun Digi XBee® Development Board includes support for single-cell lithium-polymer (LiPo) batteries, which plug into the board's black 2-pin JST connector. LiPos are perfect for projects on-the-go, or those that just need a little extra oomph. Bonus - you can charge your LiPo battery if the board is also plugged in. 
 
 <figure markdown>
 [![Battery Connector](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-BatteryConnector.jpg "Click to enlarge")
@@ -73,7 +73,7 @@ The SparkFun XBee Development Board includes support for single-cell lithium-pol
 
 ### GPIO
 
-We've broken out the XBee pins to plated through holes on either side of the board. 
+We've broken out the Digi XBee® pins to plated through holes on either side of the board. 
 
 <figure markdown>
 [![GPIO](assets/imgs/21636-XBeeDevBoard-GPIO.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-GPIO.jpg "Click to enlarge")
@@ -111,7 +111,7 @@ This LED lights up when power is provided to the board.
 This Green LED is a user-defined LED connected to D4 of the XBee. 
 
 #### ASC
-This LED on the development board blinks when the XBee is registered to the cellular network.
+This LED on the development board blinks when the Digi XBee® is registered to the cellular network.
 
 | Blink | Timing | Meaning |
 | --- | --- | --------- |
@@ -124,7 +124,7 @@ This LED on the development board blinks when the XBee is registered to the cell
 This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
 RSSI PWM
-The RSSI/PWM output is enabled continuously, unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
+The RSSI/PWM output is enabled continuously, unlike other Digi XBee® products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
 
 | PWM duty cycle | Number of LEDs turned on | Received signal strength (dBm) |
 | --- | --- | --------- |
@@ -175,10 +175,10 @@ The I<sup>2</sup>C jumper pulls the SDA and SCL pins to VDD (normally 3.3V) thro
 
 ### Board Outline
 
-The overall size of the SparkFun XBee Development Board is 1.8" by 2.5". For specific measurements, see the image below. 
+The overall size of the SparkFun Digi XBee® Development Board is 1.8" by 2.5". For specific measurements, see the image below. 
 
 
 <figure markdown>
-[![Board Outline](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline1.png){ width="600" }](assets/BoardFiles/21636-SparkFun_XBee3_Cat1_Smart_Modem-BoardOutline1.png "Click to enlarge")
+[![Board Outline](assets/BoardFiles/21636-SparkFun_Digi_XBee3_Cat1_Smart_Modem-BoardOutline1.png){ width="600" }](assets/BoardFiles/21636-SparkFun_Digi_XBee3_Cat1_Smart_Modem-BoardOutline1.png "Click to enlarge")
 <figcaption markdown>Board Outline</figcaption>
 </figure>

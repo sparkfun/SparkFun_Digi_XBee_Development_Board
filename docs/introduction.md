@@ -6,7 +6,7 @@ icon: material/book-open-page-variant
 <div class="grid cards desc" markdown>
 
 -    <a href="https://www.sparkfun.com/products/21636">
-    **SparkFun XBee Development Board**<br>
+    **SparkFun Digi XBee® Development Board**<br>
     **SKU:** WRL-21636
 
     ---
@@ -15,7 +15,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)
     </figure></a>
     
--    The SparkFun XBee Development Board is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee 3 Low-Power LTE-M/NB-IoT and XBee RR Pro modules. This board breaks out all the functionality of your Xbee module, plus the ability to connect to the cellular network and (drumroll, please) GNSS.  
+-    The SparkFun Digi XBee® Development Board is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee® 3 Low-Power LTE-M/NB-IoT and Digi XBee® RR Pro modules. This board breaks out all the functionality of your Digi XBee® module, plus the ability to connect to the cellular network and (drumroll, please) GNSS.  
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21636){ .md-button .md-button--primary }
@@ -38,7 +38,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
     ---
 
-    **SparkFun XBee Development Board**<br>
+    **SparkFun Digi XBee® Development Board**<br>
     WRL-21636</a>
 
 -   <a href="https://www.sparkfun.com/products/22329">
@@ -48,7 +48,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
     ---
 
-    **Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM**<br>
+    **Digi XBee® 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM**<br>
     WRL-22329</a>
 
 -   <a href="https://www.sparkfun.com/products/14743">

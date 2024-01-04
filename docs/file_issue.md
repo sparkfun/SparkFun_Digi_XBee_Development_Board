@@ -14,7 +14,7 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 All of this documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_XBee_Development_Board/tree/main/docs) of the [SparkFun XBee Development Board](https://github.com/sparkfun/SparkFun_XBee_Development_Board) repository.
+* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_XBee_Development_Board/tree/main/docs) of the [SparkFun Digi XBee® Development Board](https://github.com/sparkfun/SparkFun_XBee_Development_Board) repository.
 
 ### Spot something wrong?
 If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_XBee_Development_Board/issues) and let us know.
@@ -30,7 +30,7 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_XBee_Development_Board/tree/main/Hardware) of the [SparkFun XBee Development Board](https://github.com/sparkfun/SparkFun_XBee_Development_Board) repository. 
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_XBee_Development_Board/tree/main/Hardware) of the [SparkFun Digi XBee® Development Board](https://github.com/sparkfun/SparkFun_XBee_Development_Board) repository. 
 
 ### Does something not make sense?
 If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_XBee_Development_Board/issues) and let us know.

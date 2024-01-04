@@ -1,11 +1,11 @@
 # Documentation page information
-site_name: SparkFun XBee Development Board Hookup Guide
-site_description: A guide for getting started with the SparkFun XBee Development Board
-site_url: https://sparkfun.github.io/SparkFun_XBee_Development_Board
+site_name: SparkFun Digi XBee® Development Board Hookup Guide
+site_description: A guide for getting started with the SparkFun Digi XBee® Development Board
+site_url: https://sparkfun.github.io/SparkFun_Digi_XBee_Development_Board
 site_author: SparkFun Electronics
 
-repo_url: https://github.com/sparkfun/SparkFun_XBee_Development_Board
-repo_name: sparkfun/SparkFun_XBee_Development_Board
+repo_url: https://github.com/sparkfun/SparkFun_Digi_XBee_Development_Board
+repo_name: sparkfun/SparkFun_Digi_XBee_Development_Board
 
 copyright:
   Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;<br>
