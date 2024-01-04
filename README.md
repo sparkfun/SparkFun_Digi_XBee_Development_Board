@@ -1,7 +1,7 @@
 SparkFun Digi XBee® Development Board 
 ========================================
 
-[![SparkFun Digi XBee® Development Board ](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/21636-_01.jpg)](https://www.sparkfun.com/products/21636)
+[![SparkFun Digi XBee® Development Board ](https://cdn.sparkfun.com/r/600-600/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)](https://www.sparkfun.com/products/21636)
 
 [*SparkFun Digi XBee® Development Board  (21636)*](https://www.sparkfun.com/products/21636)
 
@@ -16,7 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Digi_XBee_Development_Board/)** - Basic hookup guide for the SparkFun XBee Development Board.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Digi_XBee_Development_Board/)** - Basic hookup guide for the SparkFun Digi XBee® Development Board.
 
 License Information
 -------------------
