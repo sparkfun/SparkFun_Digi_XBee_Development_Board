@@ -1,11 +1,11 @@
-SparkFun XBee Development Board
+SparkFun Digi XBee® Development Board 
 ========================================
 
-[![SparkFun XBee Development Board](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/21636-_01.jpg)](https://www.sparkfun.com/products/21636)
+[![SparkFun Digi XBee® Development Board ](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/21636-_01.jpg)](https://www.sparkfun.com/products/21636)
 
-[*SparkFun XBee Development Board (21636)*](https://www.sparkfun.com/products/21636)
+[*SparkFun Digi XBee® Development Board  (21636)*](https://www.sparkfun.com/products/21636)
 
-<Basic description of the part.>
+The SparkFun Digi XBee® Development Board  is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee 3 Low-Power LTE-M/NB-IoT and XBee RR Pro modules. This board breaks out all the functionality of your XBee module, plus the ability to connect to the cellular network and (drumroll, please) GNSS. 
 
 Repository Contents
 -------------------
@@ -16,8 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - Arduino library for the SparkFun XBee Development Board.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-xbee-3-cat-1-smart-modem-hookup-guide)** - Basic hookup guide for the SparkFun XBee Development Board.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Digi_XBee_Development_Board/)** - Basic hookup guide for the SparkFun XBee Development Board.
 
 License Information
 -------------------
