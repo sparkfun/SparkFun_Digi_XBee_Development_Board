@@ -1,5 +1,5 @@
 
-We have a number of tutorials detailing how to work with XBees and their associated software. In particular, [XCTU](https://www.digi.com/products/embedded-systems/digi-xbee/digi-xbee-tools/xctu) is free software provided by Digi (the manufacturer of XBee), that provides a quick and easy way to configure and manage XBees as well as test XBee networks. 
+We have a number of tutorials detailing how to work with Digi XBees and their associated software. In particular, [XCTU](https://www.digi.com/products/embedded-systems/digi-xbee/digi-xbee-tools/xctu) is free software provided by Digi (the manufacturer of XBee), that provides a quick and easy way to configure and manage Digi XBees as well as test XBee networks. 
 
 If you haven't worked with XCTU before, head on over to our [Exploring XBees and XCTU tutorial](https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu/all#starting-with-x-ctu) to get set up.  
 
