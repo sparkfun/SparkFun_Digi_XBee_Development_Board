@@ -15,7 +15,9 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/4/6/5/WRL-21636-XBee-Development-Board-Feature.jpg)
     </figure></a>
     
--    The SparkFun Digi XBee® Development Board is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee® 3 Low-Power LTE-M/NB-IoT and Digi XBee® RR Pro modules. This board breaks out all the functionality of your Digi XBee® module, plus the ability to connect to the cellular network and (drumroll, please) GNSS.  
+-    The SparkFun Digi XBee® Development Board is designed to help you quickly and easily prototype low-power cellular IoT applications using the new Digi XBee 3 Low-Power LTE-M/NB-IoT and Digi XBee RR Pro modules. This board breaks out all the functionality of your XBee module and adds the ability to connect to the cellular network and (drumroll, please) GNSS. 
+
+This is a "kitchen sink" development board that gives you access to the pin functionality of the XBee, includes two USB-C connectors for UART communication and firmware updates, a Qwiic connector for I<sup>2</sup>C capable sensors and peripherals, as well as Reset and D0 buttons and the ability to update firmware on the XBees that have cellular modules. There's also a JST port for a battery to allow your project to be more on the go.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21636){ .md-button .md-button--primary }

@@ -6,7 +6,7 @@ For more information related to the SparkFun Digi XBee® Development Board, chec
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Digi_XBee_Development_Board){ target="_blank" }
 * [Digi XBee® 3 Cat1 Smart Modem User Guide](assets/BoardFiles/XBee3_LTE_Cat_1-UserGuide-90002503-1.pdf){ target="_blank" }
 
-Or check out other [XBee Projects](https://learn.sparkfun.com/tutorials/tags/xbee) for inspiration:
+Or check out other [Digi XBee Projects](https://learn.sparkfun.com/tutorials/tags/xbee) for inspiration:
 
 <table style="border-style:none">
     <tr>

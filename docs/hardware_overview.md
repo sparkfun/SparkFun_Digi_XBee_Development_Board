@@ -4,7 +4,7 @@ icon: material/cog
 
 ### Digi XBee® Smart Modem Socket
 
-We've kept the Digi XBee® socket consistent with the Digi XBee® pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee® boards. The [Digi XBee® 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
+We've kept the Digi XBee socket consistent with the Digi XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. The [Digi XBee® 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
 
 
 <figure markdown>
@@ -73,7 +73,7 @@ The SparkFun Digi XBee® Development Board includes support for single-cell lith
 
 ### GPIO
 
-We've broken out the Digi XBee® pins to plated through holes on either side of the board. 
+We've broken out the Digi XBee pins to plated through holes on either side of the board. 
 
 <figure markdown>
 [![GPIO](assets/imgs/21636-XBeeDevBoard-GPIO.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-GPIO.jpg "Click to enlarge")
@@ -111,7 +111,7 @@ This LED lights up when power is provided to the board.
 This Green LED is a user-defined LED connected to D4 of the XBee. 
 
 #### ASC
-This LED on the development board blinks when the Digi XBee® is registered to the cellular network.
+This LED on the development board blinks when the Digi XBee is registered to the cellular network.
 
 | Blink | Timing | Meaning |
 | --- | --- | --------- |
@@ -124,7 +124,7 @@ This LED on the development board blinks when the Digi XBee® is registered to t
 This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
 RSSI PWM
-The RSSI/PWM output is enabled continuously, unlike other Digi XBee® products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
+The RSSI/PWM output is enabled continuously, unlike other Digi XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
 
 | PWM duty cycle | Number of LEDs turned on | Received signal strength (dBm) |
 | --- | --- | --------- |
