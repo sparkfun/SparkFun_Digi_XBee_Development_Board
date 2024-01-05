@@ -182,3 +182,26 @@ The overall size of the SparkFun Digi XBee® Development Board is 1.8" by 2.5". 
 [![Board Outline](assets/BoardFiles/21636-SparkFun_Digi_XBee3_Cat1_Smart_Modem-BoardOutline1.png){ width="600" }](assets/BoardFiles/21636-SparkFun_Digi_XBee3_Cat1_Smart_Modem-BoardOutline1.png "Click to enlarge")
 <figcaption markdown>Board Outline</figcaption>
 </figure>
+
+
+??? tip "Need more measurements?"
+	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/SparkFun_Digi_XBee_Development_Board_EagleFiles.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
+
+	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
+		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
+
+		<center>
+		[Download from<br>:autodesk-primary:{ .autodesk }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
+		</center>
+	
+	??? info ":straight_ruler: Dimensions Tool"
+		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
+
+		<center>
+		<div class="video">
+		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</center>
+
+
+
