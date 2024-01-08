@@ -19,13 +19,18 @@ plugged in simulatenously. Input VCC range is between <b>3.3V-5.5V</b>.
 
 
 <figure markdown>
-[![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-USBC.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-USBC.jpg "Click to enlarge")
+[![USB-C Connectors](assets/imgs/21636-XBeeDevBoard-USBC.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-USBC.jpg "Click to enlarge")
 <figcaption markdown>USB-C</figcaption>
 </figure>
 
 ### Direct USB 
 
-Digi XBee 3 modules with cellular capabilities have a u-blox cell module. The firmware for this module can be updated directly from the "Direct USB" USB-C connector. For more information, please refer to the respective datasheets. 
+Digi XBee 3 modules with cellular capabilities have a u-blox cell module. The firmware for this module can be updated directly from the "Direct USB" USB-C connector. For more information, please refer to the [Digi XBee® 3 Cat1 Smart Modem User Guide](assets/BoardFiles/XBee3_LTE_Cat_1-UserGuide-90002503-1.pdf){ target="_blank" }. 
+
+<figure markdown>
+[![Direct USB-C](assets/imgs/21636-XBeeDevBoard-Direct_USB-C.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Direct_USB-C.jpg "Click to enlarge")
+<figcaption markdown>Direct USB-C</figcaption>
+</figure>
 
 
 
