@@ -45,7 +45,7 @@ The USB switch allows you to select between Direct USB and I<sup>2</sup>C. Defau
 
 ### Buck Converter - AP63203
 
-The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
+The AP63203 is a 2A, synchronous buck converter with a wide input voltage range that fully integrates a 125mΩ high-side power MOSFET and a 68mΩ lowside power MOSFET to provide high-efficiency step-down DC/DC conversion. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
 
 <figure markdown>
 [![AP63203 Buck Converter](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-Buck Converter-AP63203.jpg "Click to enlarge")
