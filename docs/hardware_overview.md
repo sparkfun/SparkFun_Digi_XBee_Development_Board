@@ -12,15 +12,20 @@ We've kept the Digi XBee socket consistent with the Digi XBee pinout, so this br
 <figcaption markdown>Digi XBee Socket</figcaption>
 </figure>
 
-### Power
+### Power and USB-C Connectors
 
-There are two USB-C connectors on the board. One is a UART/I<sup>2</sup>C connector, the other is the direct USB connector. Input VCC range is between <b>3.3V-4.3V</b>. 
+There are two USB-C connectors on the board that can provide power. Both can be
+plugged in simulatenously. Input VCC range is between <b>3.3V-5.5V</b>. 
 
 
 <figure markdown>
 [![Qwiic Connector](assets/imgs/21636-XBeeDevBoard-USBC.jpg){ width="400" }](assets/imgs/21636-XBeeDevBoard-USBC.jpg "Click to enlarge")
 <figcaption markdown>USB-C</figcaption>
 </figure>
+
+### Direct USB 
+
+Digi XBee 3 modules with cellular capabilities have a u-blox cell module. The firmware for this module can be updated directly from the "Direct USB" USB-C connector. For more information, please refer to the respective datasheets. 
 
 
 
