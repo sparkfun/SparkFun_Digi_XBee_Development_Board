@@ -28581,7 +28581,7 @@ USB Shields from Ground. </text>
 <text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v13</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="58.42" y="101.6" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
+<text x="58.42" y="101.6" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB42</text>
 <text x="58.42" y="96.52" size="1.778" layer="97" font="vector" align="center">Default (Low) = I2C (SDA)</text>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <text x="274.32" y="101.6" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
