@@ -27643,6 +27643,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="MSOP10">
+<description>&lt;h3&gt;MSOP10&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size:1.4mm x .3mm&lt;/li&gt;
+&lt;li&gt;Pin count: 10&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Package Size: 3mm x 3mm &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://rocelec.widen.net/view/pdf/a7amyaouts/FAIR-S-A0001171768-1.pdf?t.download=true&amp;u=5oefqw”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
@@ -27693,47 +27702,64 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="FSUSB30MUX">
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.4064" layer="94"/>
+<symbol name="FSUSB42MUX">
+<description>&lt;h3&gt;FSUSB42&lt;/h3&gt;</description>
+<wire x1="-7.62" y1="-10.16" x2="0" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="0" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="0" y1="10.16" x2="-7.62" y2="10.16" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.4064" layer="94"/>
-<pin name="D2-" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="D2+" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D2-" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D2+" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
 <pin name="GND" x="-10.16" y="-7.62" visible="pin" length="short"/>
 <pin name="!OE!" x="-10.16" y="-5.08" visible="pin" length="short"/>
-<pin name="D1-" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="D1+" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D1-" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D1+" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
 <pin name="D+" x="-10.16" y="2.54" visible="pin" length="short"/>
 <pin name="D-" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="S" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="SEL" x="-10.16" y="-2.54" visible="pin" length="short"/>
 <pin name="VCC" x="-10.16" y="7.62" visible="pin" length="short"/>
-<text x="-7.62" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="10.795" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="0" y1="-10.16" x2="0" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="10.16" x2="0" y2="2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94" style="shortdash"/>
+<text x="1.016" y="3.048" size="0.762" layer="94" font="vector">SEL = 0</text>
+<text x="1.016" y="-3.81" size="0.762" layer="94" font="vector">SEL = 1</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FSUSB30MUX" prefix="U">
+<deviceset name="FSUSB42MUX" prefix="U">
+<description>&lt;h3&gt;Fairchild FSUSB42MUX&lt;/h3&gt;
+&lt;p&gt;he FSUSB42 is a bi-directional, low-power, two-port,
+high-speed, USB2.0 switch. Configured as a double-
+pole, double-throw switch (DPDT) switch, it is optimized
+for switching between any combination of high-speed
+(480 Mbps) or Full-Speed (12 Mbps) sources.&lt;/p&gt;</description>
 <gates>
-<gate name="U1" symbol="FSUSB30MUX" x="0" y="0"/>
+<gate name="G$1" symbol="FSUSB42MUX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_MSOP10" package="MSOP10">
+<device name="" package="MSOP10">
 <connects>
-<connect gate="U1" pin="!OE!" pad="9"/>
-<connect gate="U1" pin="D+" pad="4"/>
-<connect gate="U1" pin="D-" pad="6"/>
-<connect gate="U1" pin="D1+" pad="2"/>
-<connect gate="U1" pin="D1-" pad="8"/>
-<connect gate="U1" pin="D2+" pad="3"/>
-<connect gate="U1" pin="D2-" pad="7"/>
-<connect gate="U1" pin="GND" pad="5"/>
-<connect gate="U1" pin="S" pad="1"/>
-<connect gate="U1" pin="VCC" pad="10"/>
+<connect gate="G$1" pin="!OE!" pad="10"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="4"/>
+<connect gate="G$1" pin="D1+" pad="7"/>
+<connect gate="G$1" pin="D1-" pad="6"/>
+<connect gate="G$1" pin="D2+" pad="9"/>
+<connect gate="G$1" pin="D2-" pad="8"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="SEL" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-15569" constant="no"/>
+<attribute name="PROD_ID" value="IC-18702" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28421,7 +28447,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D3" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-IC-Special-Function" deviceset="FSUSB30MUX" device="_MSOP10"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="DIRECT_USB" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
@@ -28528,6 +28553,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IOLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="U6" library="SparkFun-IC-Special-Function" deviceset="FSUSB42MUX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28552,7 +28578,7 @@ USB Shields from Ground. </text>
 <wire x1="294.64" y1="187.96" x2="294.64" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="294.64" y1="187.96" x2="431.8" y2="187.96" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v12</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v13</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="101.6" size="2.54" layer="94" font="vector" align="center">USB Switch - FSUSB30</text>
@@ -28698,10 +28724,6 @@ Iout: 2A Max</text>
 </instance>
 <instance part="GND14" gate="1" x="287.02" y="33.02" smashed="yes">
 <attribute name="VALUE" x="287.02" y="32.766" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="U1" gate="U1" x="81.28" y="58.42" smashed="yes">
-<attribute name="NAME" x="73.66" y="69.215" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="73.66" y="45.72" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND22" gate="1" x="17.78" y="210.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="17.78" y="210.566" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
@@ -29047,6 +29069,10 @@ Iout: 2A Max</text>
 <instance part="SUPPLY6" gate="G$1" x="353.06" y="243.84" smashed="yes">
 <attribute name="VALUE" x="353.06" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="U6" gate="G$1" x="81.28" y="58.42" smashed="yes">
+<attribute name="NAME" x="73.66" y="69.215" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="73.66" y="45.72" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29063,9 +29089,9 @@ Iout: 2A Max</text>
 <label x="144.78" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="D1+"/>
-<wire x1="93.98" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
-<label x="93.98" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="93.98" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<label x="93.98" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="D1+"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
@@ -29185,14 +29211,14 @@ Iout: 2A Max</text>
 <wire x1="246.38" y1="220.98" x2="246.38" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="GND"/>
 <wire x1="68.58" y1="48.26" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
-<pinref part="U1" gate="U1" pin="!OE!"/>
 <wire x1="71.12" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <junction x="68.58" y="50.8"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="!OE!"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
@@ -29814,9 +29840,9 @@ Iout: 2A Max</text>
 <pinref part="J2" gate="G$1" pin="D+/SDA/DIO11"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="D+"/>
 <wire x1="68.58" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 <label x="68.58" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="XBEE_D-" class="2">
@@ -29826,16 +29852,16 @@ Iout: 2A Max</text>
 <pinref part="J2" gate="G$1" pin="D-"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="D-"/>
 <wire x1="68.58" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="68.58" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="DIRECT_D+" class="2">
 <segment>
-<pinref part="U1" gate="U1" pin="D2+"/>
-<wire x1="93.98" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<label x="93.98" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="93.98" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<label x="93.98" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="D2+"/>
 </segment>
 <segment>
 <pinref part="DIRECT_USB" gate="J1" pin="D+"/>
@@ -29849,9 +29875,9 @@ Iout: 2A Max</text>
 </net>
 <net name="DIRECT_D-" class="2">
 <segment>
-<pinref part="U1" gate="U1" pin="D2-"/>
-<wire x1="93.98" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="93.98" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="93.98" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="D2-"/>
 </segment>
 <segment>
 <pinref part="DIRECT_USB" gate="J1" pin="D-"/>
@@ -29889,9 +29915,9 @@ Iout: 2A Max</text>
 </net>
 <net name="DIRECT_SELECT" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="S"/>
 <wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="68.58" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="SEL"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
@@ -30069,10 +30095,10 @@ Iout: 2A Max</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="VCC"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="66.04" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$6" class="0">
