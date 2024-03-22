@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="39" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="39" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -84,10 +84,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -15564,16 +15564,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J6" pad="7"/>
 <wire x1="9.2964" y1="20.2438" x2="9.2964" y2="27.5336" width="0.254" layer="1"/>
 <wire x1="9.2964" y1="27.5336" x2="7.62" y2="29.21" width="0.254" layer="1"/>
-<wire x1="12.7508" y1="17.2212" x2="12.3825" y2="17.5895" width="0.254" layer="16"/>
+<wire x1="13.0048" y1="16.9672" x2="12.3825" y2="17.5895" width="0.254" layer="16"/>
 <wire x1="40.64" y1="10.66" x2="39.886" y2="10.66" width="0.254" layer="1"/>
 <wire x1="39.886" y1="10.66" x2="39.624" y2="10.922" width="0.254" layer="1"/>
 <wire x1="39.624" y1="10.922" x2="39.624" y2="12.827" width="0.254" layer="1"/>
 <wire x1="40.386" y1="15.406" x2="40.513" y2="15.533" width="0.254" layer="1"/>
 <wire x1="40.386" y1="14.224" x2="40.386" y2="15.406" width="0.254" layer="1"/>
-<wire x1="17.3228" y1="14.4018" x2="16.0147" y2="13.0937" width="0.254" layer="16"/>
-<wire x1="16.0147" y1="13.0937" x2="13.6779" y2="13.0937" width="0.254" layer="16"/>
-<wire x1="13.6779" y1="13.0937" x2="12.7508" y2="14.0208" width="0.254" layer="16"/>
-<wire x1="12.7508" y1="17.2212" x2="12.7508" y2="14.351" width="0.254" layer="16"/>
+<wire x1="17.9578" y1="14.4018" x2="16.6497" y2="13.0937" width="0.254" layer="16"/>
+<wire x1="16.6497" y1="13.0937" x2="13.6779" y2="13.0937" width="0.254" layer="16"/>
+<wire x1="13.6779" y1="13.0937" x2="13.0048" y2="13.7668" width="0.254" layer="16"/>
+<wire x1="13.0048" y1="16.9672" x2="13.0048" y2="14.351" width="0.254" layer="16"/>
 <wire x1="12.3825" y1="17.5895" x2="9.8679" y2="17.5895" width="0.254" layer="16"/>
 <wire x1="9.8679" y1="17.5895" x2="9.2964" y2="18.161" width="0.254" layer="16"/>
 <wire x1="9.2964" y1="18.161" x2="9.2964" y2="20.2438" width="0.254" layer="16"/>
@@ -15581,12 +15581,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="40.386" y1="13.589" x2="40.386" y2="14.224" width="0.254" layer="1"/>
 <via x="40.386" y="14.224" extent="1-16" drill="0.3048"/>
 <wire x1="40.386" y1="14.224" x2="40.2082" y2="14.4018" width="0.254" layer="16"/>
-<wire x1="40.2082" y1="14.4018" x2="17.3228" y2="14.4018" width="0.254" layer="16"/>
+<wire x1="40.2082" y1="14.4018" x2="17.9578" y2="14.4018" width="0.254" layer="16"/>
 <contactref element="U6" pad="7"/>
-<via x="12.7508" y="14.351" extent="1-16" drill="0.3048"/>
+<via x="13.0048" y="14.351" extent="1-16" drill="0.3048"/>
 <wire x1="15.204" y1="14.359" x2="15.196" y2="14.351" width="0.2032" layer="1"/>
-<wire x1="15.196" y1="14.351" x2="12.7508" y2="14.351" width="0.2032" layer="1"/>
-<wire x1="12.7508" y1="14.0208" x2="12.7508" y2="14.351" width="0.254" layer="16"/>
+<wire x1="15.196" y1="14.351" x2="13.0048" y2="14.351" width="0.2032" layer="1"/>
+<wire x1="13.0048" y1="13.7668" x2="13.0048" y2="14.351" width="0.254" layer="16"/>
 </signal>
 <signal name="D1/SCL">
 <contactref element="J4" pad="4"/>
@@ -16578,9 +16578,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="15.8242" y1="17.7038" x2="15.748" y2="17.78" width="0.254" layer="1"/>
 <wire x1="15.748" y1="17.78" x2="14.82" y2="17.78" width="0.254" layer="1"/>
 <contactref element="U6" pad="1"/>
-<wire x1="10.8458" y1="16.1798" x2="10.704" y2="16.038" width="0.2032" layer="1"/>
-<wire x1="10.704" y1="15.859" x2="10.704" y2="16.038" width="0.2032" layer="1"/>
-<wire x1="10.8458" y1="16.1798" x2="11.557" y2="16.1798" width="0.2032" layer="1"/>
+<wire x1="11.557" y1="15.95" x2="11.466" y2="15.859" width="0.2032" layer="1"/>
+<wire x1="10.704" y1="15.859" x2="11.466" y2="15.859" width="0.2032" layer="1"/>
+<wire x1="11.557" y1="16.1798" x2="11.557" y2="15.95" width="0.2032" layer="1"/>
 <via x="11.557" y="16.1798" extent="1-16" drill="0.3048"/>
 <wire x1="11.557" y1="16.1798" x2="15.0114" y2="16.1798" width="0.2032" layer="2"/>
 <wire x1="15.8242" y1="16.9926" x2="15.8242" y2="17.7038" width="0.2032" layer="2"/>
