@@ -228,16 +228,18 @@
 <dimension x1="7.62" y1="44.45" x2="0" y2="44.45" x3="3.81" y3="69.85" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="3.175" y1="43.18" x2="0" y2="43.18" x3="1.5875" y3="66.04" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="42.545" y1="43.18" x2="45.72" y2="43.18" x3="44.1325" y3="71.12" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="72.39" y="52.07" size="1.778" layer="51" font="vector" ratio="15">FOUR LAYER BOARD</text>
-<text x="72.39" y="48.26" size="1.778" layer="51" font="vector" ratio="15">1.6mm Thickness</text>
-<text x="72.39" y="44.45" size="1.778" layer="51" font="vector" ratio="15">LEAD-FREE HASL</text>
 <wire x1="31.623" y1="62.103" x2="32.004" y2="61.722" width="0.1524" layer="21"/>
 <wire x1="14.1986" y1="62.103" x2="13.843" y2="61.7474" width="0.1524" layer="21"/>
 <rectangle x1="27.559" y1="40.513" x2="29.083" y2="40.767" layer="41"/>
 <rectangle x1="27.686" y1="34.671" x2="28.956" y2="34.925" layer="41"/>
-<text x="72.39" y="35.56" size="1.778" layer="51" font="vector" ratio="15">1oz Outer Layer
+<text x="71.12" y="34.29" size="1.778" layer="51" font="vector" ratio="15">Four Layer Board
+1oz Outer Layer
 0.5oz Inner Layer
-JLC0416H-7628 Stackup</text>
+JLC0416H-7628 Stackup
+1.6mm Thickness
+Lead-Free HASL finish 
+Red Soldermask
+White Silkscreen</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
